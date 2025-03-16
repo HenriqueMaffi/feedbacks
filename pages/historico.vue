@@ -1,5 +1,5 @@
 <template>
   <div>
-    Dashboard
+    Histórico
   </div>
 </template>
