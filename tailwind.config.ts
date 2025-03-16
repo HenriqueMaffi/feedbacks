@@ -8,6 +8,12 @@ module.exports = {
     "./error.vue"    
   ],
   theme: {
-    extend: {},
-  }
+    extend: {
+      fontFamily: {
+        roboto: ['Roboto', 'sans-serif'],
+        lato: ['Lato', 'sans-serif'],
+        raleway: ['Raleway', 'sans-serif'],
+      },
+    },
+  },
 };

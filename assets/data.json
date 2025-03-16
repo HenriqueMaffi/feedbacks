@@ -1,0 +1,29 @@
+{
+  "Tipos": {
+    "Elogio": "elogio",
+    "Sugestão": "sugestao",
+    "Crítica" : "critica"
+  },
+  "Status": [
+    "Pendente",
+    "Respondido"
+  ],
+  "Areas": {
+    "Pré-Atendimento": "atendimento",
+    "Vendas": "prazo-de-entrega",
+    "Pós-vendas": "pos-venda",
+    "Produtos": "produto"
+  },
+  "Feedbacks": [
+    {
+      "Id": 0,
+      "Usuario": "",
+      "Data": "",
+      "Status": "",
+      "Area": "",
+      "Tipo": "",
+      "Mensagem": "",
+      "Resposta": ""
+    }
+  ]
+}
