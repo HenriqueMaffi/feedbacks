@@ -1,8 +1,8 @@
 <template>
   <div>
-    <NuxtLayout>
+    <UiHeader />
       <NuxtRouteAnnouncer />
-      <NuxtPage class="min-h-[100svh] bg-gray-200 "/>
-    </NuxtLayout>
+      <NuxtPage class="min-h-[100svh] pt-12"/>
+    <UiFooter />
   </div>
 </template>
