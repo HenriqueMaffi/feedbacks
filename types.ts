@@ -2,7 +2,7 @@ export interface Feedback {
   id: number,
   data: string,
   status: string,
-  area: string,
+  setor: string,
   tipo: string,
   mensagem: string,
   resposta: string,

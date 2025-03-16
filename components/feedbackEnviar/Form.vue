@@ -2,22 +2,22 @@
   <form @submit.prevent="enviaFormularioFeedback" class="flex gap-4 flex-col bg-white p-4 shadow-md xl:p-10 rounded w-full">
     <h3 class="font-semibold text-xl mb-2">Envie-nos seu feedback!</h3>
 
-    <label for="area-feedback" class="relative">
+    <label for="setor-feedback" class="relative">
       Área avaliada
       <select 
-        id="area-feedback" 
-        v-model="areaAvaliadaSelecionada" 
-        @change="limpaAlertas('area')"
+        id="setor-feedback" 
+        v-model="setorAvaliadoSelecionado" 
+        @change="limpaAlertas('setor')"
         class="base-input-feedback"
-        :class="{'border-gray-200': !alertaAreaAvaliada, 'border-red-500': alertaAreaAvaliada}"
+        :class="{'border-gray-200': !alertaSetorAvaliado, 'border-red-500': alertaSetorAvaliado}"
       >
         <option value="" selected disabled hidden></option>
-        <option v-for="area in Areas" :value="area">{{ area }}</option>
+        <option v-for="setor in Setores" :value="setor">{{ setor }}</option>
       </select>
 
       <span 
         class="absolute top-0 right-0 text-red-600 text-sm transition-opacity duration-200" 
-        :class="{'opacity-0': !alertaAreaAvaliada, 'opacity-100': alertaAreaAvaliada}"
+        :class="{'opacity-0': !alertaSetorAvaliado, 'opacity-100': alertaSetorAvaliado}"
       >
         campo obrigatório
       </span>
@@ -93,17 +93,17 @@
 </template>
 
 <script lang="ts" setup>
-import {Tipos, Areas } from 'assets/data.json'
+import {Tipos, Setores } from 'assets/data.json'
 import type { Feedback } from '~/types'
 
 const listaFeedback = useFeedbacks()
 
-const areaAvaliadaSelecionada = ref('')
+const setorAvaliadoSelecionado = ref('')
 const tipoFeedbackSelecionado = ref('')
 const mensagemFeedback = ref('')
 const arquivoFeedbackEnviado = ref<null | File>(null)
 
-const alertaAreaAvaliada = ref(false)
+const alertaSetorAvaliado = ref(false)
 const alertaTipoFeedback = ref(false)
 const alertaMensagemFeedback = ref('')
 const alertaArquivoFeedback = ref('')
@@ -129,7 +129,7 @@ function verificaArquivoEnviado(event: Event) {
 };
 
 function limpaAlertas(tipoInput: string){
-  tipoInput === 'area' ? alertaAreaAvaliada.value = false :
+  tipoInput === 'setor' ? alertaSetorAvaliado.value = false :
   tipoInput === 'tipo' ? alertaTipoFeedback.value = false :
   tipoInput === 'mensagem' ? alertaMensagemFeedback.value = '' :
   alertaArquivoFeedback.value = ''
@@ -137,8 +137,8 @@ function limpaAlertas(tipoInput: string){
 
 
 function validaInputsFeedback(){
-  if (!areaAvaliadaSelecionada.value) {
-    alertaAreaAvaliada.value = true;
+  if (!setorAvaliadoSelecionado.value) {
+    alertaSetorAvaliado.value = true;
   }
   if (!tipoFeedbackSelecionado.value) {
     alertaTipoFeedback.value = true;
@@ -152,12 +152,12 @@ function validaInputsFeedback(){
 
 function enviaFormularioFeedback(){
   validaInputsFeedback()
-  if (!alertaAreaAvaliada.value && !alertaTipoFeedback.value && !alertaMensagemFeedback.value && !alertaArquivoFeedback.value) {
+  if (!alertaSetorAvaliado.value && !alertaTipoFeedback.value && !alertaMensagemFeedback.value && !alertaArquivoFeedback.value) {
     const novoFeedback: Feedback = {
       id: listaFeedback.value.length + 1,
       data: novaData(),
       status: "Pendente",
-      area: areaAvaliadaSelecionada.value,
+      setor: setorAvaliadoSelecionado.value,
       tipo: tipoFeedbackSelecionado.value,
       mensagem: mensagemFeedback.value,
       resposta: '',
