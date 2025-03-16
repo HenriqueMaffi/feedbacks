@@ -1,29 +1,659 @@
 {
-  "Tipos": {
-    "Elogio": "elogio",
-    "Sugestão": "sugestao",
-    "Crítica" : "critica"
-  },
+  "Tipos": [
+    "Elogio",
+    "Sugestão",
+    "Crítica" 
+  ],
   "Status": [
     "Pendente",
     "Respondido"
   ],
-  "Areas": {
-    "Pré-Atendimento": "atendimento",
-    "Vendas": "prazo-de-entrega",
-    "Pós-vendas": "pos-venda",
-    "Produtos": "produto"
-  },
+  "Areas": [
+    "Pré-Atendimento",
+    "Vendas",
+    "Pós-vendas",
+    "Produtos"  
+  ],
   "Feedbacks": [
     {
-      "Id": 0,
-      "Usuario": "",
-      "Data": "",
-      "Status": "",
-      "Area": "",
-      "Tipo": "",
-      "Mensagem": "",
-      "Resposta": ""
-    }
+      "id": 0,
+      "data": "16/03/2025",
+      "status": "Pendente",
+      "area": "Pré-Atendimento",
+      "tipo": "Elogio",
+      "mensagem": "Fui muito bem atendido pelo Luis, voltarei a procurar ele!",
+      "resposta": "",
+      "arquivo": null
+    },
+    {
+      "id": 1,
+      "data": "01/02/2025",
+      "status": "Respondido",
+      "area": "Vendas",
+      "tipo": "Crítica",
+      "mensagem": "O prazo de entrega foi muito longo, atrasou minha preparação para a maratona.",
+      "resposta": "Agradecemos o feedback. Estamos trabalhando para melhorar nossos prazos.",
+      "arquivo": null
+    },
+    {
+      "id": 2,
+      "data": "08/02/2025",
+      "status": "Pendente",
+      "area": "Pós-vendas",
+      "tipo": "Sugestão",
+      "mensagem": "Seria interessante ter um acompanhamento pós-venda para ajudar na utilização dos produtos.",
+      "resposta": "",
+      "arquivo": null
+    },
+    {
+      "id": 3,
+      "data": "12/02/2025",
+      "status": "Respondido",
+      "area": "Produtos",
+      "tipo": "Elogio",
+      "mensagem": "Adorei a qualidade do tênis de corrida, super confortável!",
+      "resposta": "Ficamos felizes em saber que gostou do produto!",
+      "arquivo": null
+    },
+    {
+      "id": 4,
+      "data": "17/02/2025",
+      "status": "Pendente",
+      "area": "Pré-Atendimento",
+      "tipo": "Crítica",
+      "mensagem": "O atendente foi rude e não soube explicar as características do produto.",
+      "resposta": "",
+      "arquivo": null
+    },
+    {
+      "id": 5,
+      "data": "21/02/2025",
+      "status": "Respondido",
+      "area": "Vendas",
+      "tipo": "Elogio",
+      "mensagem": "Entrega super rápida, recebi antes do prazo estimado!",
+      "resposta": "Que bom que teve uma boa experiência conosco!",
+      "arquivo": null
+    },
+    {
+      "id": 6,
+      "data": "26/02/2025",
+      "status": "Pendente",
+      "area": "Pós-vendas",
+      "tipo": "Sugestão",
+      "mensagem": "Sugiro que enviem e-mails de acompanhamento após a compra.",
+      "resposta": "",
+      "arquivo": null
+    },
+    {
+      "id": 7,
+      "data": "27/02/2025",
+      "status": "Respondido",
+      "area": "Produtos",
+      "tipo": "Crítica",
+      "mensagem": "O material da camiseta esportiva desbotou após a primeira lavagem.",
+      "resposta": "Lamentamos o ocorrido. Entraremos em contato para resolver.",
+      "arquivo": null
+    },
+    {
+      "id": 8,
+      "data": "28/02/2025",
+      "status": "Pendente",
+      "area": "Pré-Atendimento",
+      "tipo": "Elogio",
+      "mensagem": "A Ana foi muito atenciosa e resolveu meu problema rapidamente.",
+      "resposta": "",
+      "arquivo": null
+    },
+    {
+      "id": 9,
+      "data": "03/03/2025",
+      "status": "Respondido",
+      "area": "Vendas",
+      "tipo": "Crítica",
+      "mensagem": "O produto chegou com atraso e sem aviso prévio.",
+      "resposta": "Pedimos desculpas pelo inconveniente. Estamos melhorando nosso sistema de entregas.",
+      "arquivo": null
+    },
+    {
+      "id": 10,
+      "data": "09/03/2025",
+      "status": "Pendente",
+      "area": "Pós-vendas",
+      "tipo": "Sugestão",
+      "mensagem": "Sugiro que ofereçam mais opções de pagamento no site.",
+      "resposta": "",
+      "arquivo": null
+    },
+    {
+      "id": 11,
+      "data": "10/03/2025",
+      "status": "Respondido",
+      "area": "Produtos",
+      "tipo": "Elogio",
+      "mensagem": "A mochila é muito resistente e prática, recomendo!",
+      "resposta": "Obrigado por compartilhar sua experiência!",
+      "arquivo": null
+    },
+    {
+      "id": 12,
+      "data": "12/03/2025",
+      "status": "Pendente",
+      "area": "Pré-Atendimento",
+      "tipo": "Crítica",
+      "mensagem": "O atendente não soube informar sobre o status do meu pedido.",
+      "resposta": "",
+      "arquivo": null
+    },
+    {
+      "id": 13,
+      "data": "11/01/2025",
+      "status": "Respondido",
+      "area": "Vendas",
+      "tipo": "Elogio",
+      "mensagem": "Entrega no prazo e bem embalada, parabéns!",
+      "resposta": "Agradecemos o feedback positivo!",
+      "arquivo": null
+    },
+    {
+      "id": 14,
+      "data": "18/01/2025",
+      "status": "Pendente",
+      "area": "Pós-vendas",
+      "tipo": "Sugestão",
+      "mensagem": "Seria útil ter um chat online para tirar dúvidas pós-compra.",
+      "resposta": "",
+      "arquivo": null
+    },
+    {
+      "id": 15,
+      "data": "31/01/2025",
+      "status": "Respondido",
+      "area": "Produtos",
+      "tipo": "Crítica",
+      "mensagem": "O tênis veio com um defeito no cadarço.",
+      "resposta": "Pedimos desculpas pelo problema. Enviaremos um novo cadarço.",
+      "arquivo": null
+    },
+    {
+      "id": 16,
+      "data": "01/04/2024",
+      "status": "Pendente",
+      "area": "Pré-Atendimento",
+      "tipo": "Elogio",
+      "mensagem": "O Carlos foi muito prestativo e resolveu minha dúvida rapidamente.",
+      "resposta": "",
+      "arquivo": null
+    },
+    {
+      "id": 17,
+      "data": "04/05/2024",
+      "status": "Respondido",
+      "area": "Vendas",
+      "tipo": "Crítica",
+      "mensagem": "O produto chegou danificado devido à má embalagem.",
+      "resposta": "Lamentamos o ocorrido. Entraremos em contato para resolver.",
+      "arquivo": null
+    },
+    {
+      "id": 18,
+      "data": "10/05/2024",
+      "status": "Pendente",
+      "area": "Pós-vendas",
+      "tipo": "Sugestão",
+      "mensagem": "Sugiro que enviem instruções de uso junto com os produtos.",
+      "resposta": "",
+      "arquivo": null
+    },
+    {
+      "id": 19,
+      "data": "18/05/2024",
+      "status": "Respondido",
+      "area": "Produtos",
+      "tipo": "Elogio",
+      "mensagem": "A qualidade da roupa esportiva é excelente, superou minhas expectativas.",
+      "resposta": "Ficamos felizes em saber que gostou do produto!",
+      "arquivo": null
+    },
+    {
+      "id": 20,
+      "data": "20/05/2024",
+      "status": "Pendente",
+      "area": "Pré-Atendimento",
+      "tipo": "Crítica",
+      "mensagem": "O atendente não soube explicar as diferenças entre os modelos de tênis.",
+      "resposta": "",
+      "arquivo": null
+    },
+    {
+      "id": 21,
+      "data": "21/05/2024",
+      "status": "Respondido",
+      "area": "Vendas",
+      "tipo": "Elogio",
+      "mensagem": "Entrega rápida e eficiente, recomendo!",
+      "resposta": "Agradecemos o feedback positivo!",
+      "arquivo": null
+    },
+    {
+      "id": 22,
+      "data": "26/05/2024",
+      "status": "Pendente",
+      "area": "Pós-vendas",
+      "tipo": "Sugestão",
+      "mensagem": "Seria interessante ter um sistema de avaliação dos produtos no site.",
+      "resposta": "",
+      "arquivo": null
+    },
+    {
+      "id": 23,
+      "data": "05/06/2024",
+      "status": "Respondido",
+      "area": "Produtos",
+      "tipo": "Crítica",
+      "mensagem": "A bolsa esportiva veio com o zíper quebrado.",
+      "resposta": "Pedimos desculpas pelo problema. Enviaremos uma nova bolsa.",
+      "arquivo": null
+    },
+    {
+      "id": 24,
+      "data": "09/06/2024",
+      "status": "Pendente",
+      "area": "Pré-Atendimento",
+      "tipo": "Elogio",
+      "mensagem": "A Maria foi muito atenciosa e resolveu meu problema rapidamente.",
+      "resposta": "",
+      "arquivo": null
+    },
+    {
+      "id": 25,
+      "data": "12/06/2024",
+      "status": "Respondido",
+      "area": "Vendas",
+      "tipo": "Crítica",
+      "mensagem": "O produto chegou com atraso e sem aviso prévio.",
+      "resposta": "Pedimos desculpas pelo inconveniente. Estamos melhorando nosso sistema de entregas.",
+      "arquivo": null
+    },
+    {
+      "id": 26,
+      "data": "17/06/2024",
+      "status": "Pendente",
+      "area": "Pós-vendas",
+      "tipo": "Sugestão",
+      "mensagem": "Sugiro que ofereçam mais opções de pagamento no site.",
+      "resposta": "",
+      "arquivo": null
+    },
+    {
+      "id": 27,
+      "data": "21/06/2024",
+      "status": "Respondido",
+      "area": "Produtos",
+      "tipo": "Elogio",
+      "mensagem": "A mochila é muito resistente e prática, recomendo!",
+      "resposta": "Obrigado por compartilhar sua experiência!",
+      "arquivo": null
+    },
+    {
+      "id": 28,
+      "data": "22/06/2024",
+      "status": "Pendente",
+      "area": "Pré-Atendimento",
+      "tipo": "Crítica",
+      "mensagem": "O atendente não soube informar sobre o status do meu pedido.",
+      "resposta": "",
+      "arquivo": null
+    },
+    {
+      "id": 29,
+      "data": "25/06/2024",
+      "status": "Respondido",
+      "area": "Vendas",
+      "tipo": "Elogio",
+      "mensagem": "Entrega no prazo e bem embalada, parabéns!",
+      "resposta": "Agradecemos o feedback positivo!",
+      "arquivo": null
+    },
+    {
+      "id": 30,
+      "data": "28/06/2024",
+      "status": "Pendente",
+      "area": "Pós-vendas",
+      "tipo": "Sugestão",
+      "mensagem": "Seria útil ter um chat online para tirar dúvidas pós-compra.",
+      "resposta": "",
+      "arquivo": null
+    },
+    {
+      "id": 31,
+      "data": "30/06/2024",
+      "status": "Respondido",
+      "area": "Produtos",
+      "tipo": "Crítica",
+      "mensagem": "O tênis veio com um defeito no cadarço.",
+      "resposta": "Pedimos desculpas pelo problema. Enviaremos um novo cadarço.",
+      "arquivo": null
+    },
+    {
+      "id": 32,
+      "data": "01/07/2024",
+      "status": "Pendente",
+      "area": "Pré-Atendimento",
+      "tipo": "Elogio",
+      "mensagem": "O Carlos foi muito prestativo e resolveu minha dúvida rapidamente.",
+      "resposta": "",
+      "arquivo": null
+    },
+    {
+      "id": 33,
+      "data": "06/07/2024",
+      "status": "Respondido",
+      "area": "Vendas",
+      "tipo": "Crítica",
+      "mensagem": "O produto chegou danificado devido à má embalagem.",
+      "resposta": "Lamentamos o ocorrido. Entraremos em contato para resolver.",
+      "arquivo": null
+    },
+    {
+      "id": 34,
+      "data": "11/07/2024",
+      "status": "Pendente",
+      "area": "Pós-vendas",
+      "tipo": "Sugestão",
+      "mensagem": "Sugiro que enviem instruções de uso junto com os produtos.",
+      "resposta": "",
+      "arquivo": null
+    },
+    {
+      "id": 35,
+      "data": "20/07/2024",
+      "status": "Respondido",
+      "area": "Produtos",
+      "tipo": "Elogio",
+      "mensagem": "A qualidade da roupa esportiva é excelente, superou minhas expectativas.",
+      "resposta": "Ficamos felizes em saber que gostou do produto!",
+      "arquivo": null
+    },
+    {
+      "id": 36,
+      "data": "21/07/2024",
+      "status": "Pendente",
+      "area": "Pré-Atendimento",
+      "tipo": "Crítica",
+      "mensagem": "O atendente não soube explicar as diferenças entre os modelos de tênis.",
+      "resposta": "",
+      "arquivo": null
+    },
+    {
+      "id": 37,
+      "data": "24/07/2024",
+      "status": "Respondido",
+      "area": "Vendas",
+      "tipo": "Elogio",
+      "mensagem": "Entrega rápida e eficiente, recomendo!",
+      "resposta": "Agradecemos o feedback positivo!",
+      "arquivo": null
+    },
+    {
+      "id": 38,
+      "data": "28/07/2024",
+      "status": "Pendente",
+      "area": "Pós-vendas",
+      "tipo": "Sugestão",
+      "mensagem": "Seria interessante ter um sistema de avaliação dos produtos no site.",
+      "resposta": "",
+      "arquivo": null
+    },
+    {
+      "id": 39,
+      "data": "03/08/2024",
+      "status": "Respondido",
+      "area": "Produtos",
+      "tipo": "Crítica",
+      "mensagem": "A bolsa esportiva veio com o zíper quebrado.",
+      "resposta": "Pedimos desculpas pelo problema. Enviaremos uma nova bolsa.",
+      "arquivo": null
+    },
+    {
+      "id": 40,
+      "data": "08/08/2024",
+      "status": "Pendente",
+      "area": "Pré-Atendimento",
+      "tipo": "Elogio",
+      "mensagem": "A Maria foi muito atenciosa e resolveu meu problema rapidamente.",
+      "resposta": "",
+      "arquivo": null
+    },
+    {
+      "id": 41,
+      "data": "14/08/2024",
+      "status": "Respondido",
+      "area": "Vendas",
+      "tipo": "Crítica",
+      "mensagem": "O produto chegou com atraso e sem aviso prévio.",
+      "resposta": "Pedimos desculpas pelo inconveniente. Estamos melhorando nosso sistema de entregas.",
+      "arquivo": null
+    },
+    {
+      "id": 42,
+      "data": "21/08/2024",
+      "status": "Pendente",
+      "area": "Pós-vendas",
+      "tipo": "Sugestão",
+      "mensagem": "Sugiro que ofereçam mais opções de pagamento no site.",
+      "resposta": "",
+      "arquivo": null
+    },
+    {
+      "id": 43,
+      "data": "27/08/2024",
+      "status": "Respondido",
+      "area": "Produtos",
+      "tipo": "Elogio",
+      "mensagem": "A mochila é muito resistente e prática, recomendo!",
+      "resposta": "Obrigado por compartilhar sua experiência!",
+      "arquivo": null
+    },
+    {
+      "id": 44,
+      "data": "29/08/2024",
+      "status": "Pendente",
+      "area": "Pré-Atendimento",
+      "tipo": "Elogio",
+      "mensagem": "O atendente foi muito solícito e resolveu minha dúvida rapidamente.",
+      "resposta": "",
+      "arquivo": null
+    },
+    {
+      "id": 45,
+      "data": "04/09/2024",
+      "status": "Respondido",
+      "area": "Vendas",
+      "tipo": "Crítica",
+      "mensagem": "O produto chegou com atraso e sem justificativa.",
+      "resposta": "Pedimos desculpas pelo inconveniente. Estamos revisando nosso processo de entregas.",
+      "arquivo": null
+    },
+    {
+      "id": 46,
+      "data": "09/09/2024",
+      "status": "Pendente",
+      "area": "Pós-vendas",
+      "tipo": "Sugestão",
+      "mensagem": "Sugiro que enviem lembretes para a troca de produtos com garantia.",
+      "resposta": "",
+      "arquivo": null
+    },
+    {
+      "id": 47,
+      "data": "15/09/2024",
+      "status": "Respondido",
+      "area": "Produtos",
+      "tipo": "Elogio",
+      "mensagem": "Adorei a qualidade do suplemento esportivo, superou minhas expectativas!",
+      "resposta": "Ficamos felizes em saber que gostou do produto!",
+      "arquivo": null
+    },
+    {
+      "id": 48,
+      "data": "18/09/2024",
+      "status": "Pendente",
+      "area": "Pré-Atendimento",
+      "tipo": "Crítica",
+      "mensagem": "O atendente não soube explicar as políticas de troca e devolução.",
+      "resposta": "",
+      "arquivo": null
+    },
+    {
+      "id": 49,
+      "data": "01/10/2024",
+      "status": "Respondido",
+      "area": "Vendas",
+      "tipo": "Elogio",
+      "mensagem": "Entrega rápida e o produto veio bem embalado. Parabéns!",
+      "resposta": "Agradecemos o feedback positivo!",
+      "arquivo": null
+    },
+    {
+      "id": 50,
+      "data": "05/10/2024",
+      "status": "Pendente",
+      "area": "Pós-vendas",
+      "tipo": "Sugestão",
+      "mensagem": "Seria interessante ter um manual de cuidados para os produtos esportivos.",
+      "resposta": "",
+      "arquivo": null
+    },
+    {
+      "id": 51,
+      "data": "16/10/2024",
+      "status": "Respondido",
+      "area": "Produtos",
+      "tipo": "Crítica",
+      "mensagem": "A bermuda esportiva desbotou após a primeira lavagem.",
+      "resposta": "Lamentamos o ocorrido. Entraremos em contato para resolver.",
+      "arquivo": null
+    },
+    {
+      "id": 52,
+      "data": "24/10/2024",
+      "status": "Pendente",
+      "area": "Pré-Atendimento",
+      "tipo": "Elogio",
+      "mensagem": "A Ana foi muito atenciosa e resolveu meu problema rapidamente.",
+      "resposta": "",
+      "arquivo": null
+    },
+    {
+      "id": 53,
+      "data": "02/11/2024",
+      "status": "Respondido",
+      "area": "Vendas",
+      "tipo": "Crítica",
+      "mensagem": "O produto chegou com atraso e sem aviso prévio.",
+      "resposta": "Pedimos desculpas pelo inconveniente. Estamos melhorando nosso sistema de entregas.",
+      "arquivo": null
+    },
+    {
+      "id": 54,
+      "data": "09/11/2024",
+      "status": "Pendente",
+      "area": "Pós-vendas",
+      "tipo": "Sugestão",
+      "mensagem": "Sugiro que ofereçam mais opções de pagamento no site.",
+      "resposta": "",
+      "arquivo": null
+    },
+    {
+      "id": 55,
+      "data": "10/11/2024",
+      "status": "Respondido",
+      "area": "Produtos",
+      "tipo": "Elogio",
+      "mensagem": "A mochila é muito resistente e prática, recomendo!",
+      "resposta": "Obrigado por compartilhar sua experiência!",
+      "arquivo": null
+    },
+    {
+      "id": 56,
+      "data": "10/11/2024",
+      "status": "Pendente",
+      "area": "Pré-Atendimento",
+      "tipo": "Crítica",
+      "mensagem": "O atendente não soube informar sobre o status do meu pedido.",
+      "resposta": "",
+      "arquivo": null
+    },
+    {
+      "id": 57,
+      "data": "02/12/2024",
+      "status": "Respondido",
+      "area": "Vendas",
+      "tipo": "Elogio",
+      "mensagem": "Entrega no prazo e bem embalada, parabéns!",
+      "resposta": "Agradecemos o feedback positivo!",
+      "arquivo": null
+    },
+    {
+      "id": 58,
+      "data": "08/12/2024",
+      "status": "Pendente",
+      "area": "Pós-vendas",
+      "tipo": "Sugestão",
+      "mensagem": "Seria útil ter um chat online para tirar dúvidas pós-compra.",
+      "resposta": "",
+      "arquivo": null
+    },
+    {
+      "id": 59,
+      "data": "14/12/2024",
+      "status": "Respondido",
+      "area": "Produtos",
+      "tipo": "Crítica",
+      "mensagem": "O tênis veio com um defeito no cadarço.",
+      "resposta": "Pedimos desculpas pelo problema. Enviaremos um novo cadarço.",
+      "arquivo": null
+    },
+    {
+      "id": 60,
+      "data": "15/12/2024",
+      "status": "Pendente",
+      "area": "Pré-Atendimento",
+      "tipo": "Elogio",
+      "mensagem": "O Carlos foi muito prestativo e resolveu minha dúvida rapidamente.",
+      "resposta": "",
+      "arquivo": null
+    },
+    {
+      "id": 61,
+      "data": "19/12/2024",
+      "status": "Respondido",
+      "area": "Vendas",
+      "tipo": "Crítica",
+      "mensagem": "O produto chegou danificado devido à má embalagem.",
+      "resposta": "Lamentamos o ocorrido. Entraremos em contato para resolver.",
+      "arquivo": null
+    },
+    {
+      "id": 62,
+      "data": "21/12/2024",
+      "status": "Pendente",
+      "area": "Pós-vendas",
+      "tipo": "Sugestão",
+      "mensagem": "Sugiro que enviem instruções de uso junto com os produtos.",
+      "resposta": "",
+      "arquivo": null
+    },
+    {
+      "id": 63,
+      "data": "23/12/2024",
+      "status": "Respondido",
+      "area": "Produtos",
+      "tipo": "Elogio",
+      "mensagem": "A qualidade da roupa esportiva é excelente, superou minhas expectativas.",
+      "resposta": "Ficamos felizes em saber que gostou do produto!",
+      "arquivo": null
+    }    
   ]
 }
