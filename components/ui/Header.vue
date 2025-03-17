@@ -1,9 +1,19 @@
 <template>
-  <div class="h-12 bg-gray-100 border-b shadow-sm w-full fixed top-0 flex gap-32 items-center justify-end px-20">
-    <NuxtLink to="/" class="nav-link">Dashboard</NuxtLink>
-    <NuxtLink to="/historico" class="nav-link">Histórico</NuxtLink>
-    <NuxtLink to="/feedbacks" class="nav-link">Enviar Feedback</NuxtLink>
-  </div>
+  <nav class="h-12 bg-gray-100 border-b shadow-sm w-full fixed top-auto bottom-0 lg:top-0 lg:bottom-auto z-10 flex items-center justify-evenly lg:justify-end lg:px-20 lg:gap-20 border-t xl:border-none">
+    <NuxtLink to="/" class="nav-link">
+      <Icon name="ph:squares-four-light" size="22px" class="lg:hidden"/>        
+      <span>Dashboard</span>
+    </NuxtLink>
+    <NuxtLink to="/historico" class="nav-link">
+      <Icon name="ph:file-search-light" size="22px" class="lg:hidden"/>        
+      <span>Histórico</span>
+    </NuxtLink>
+    <NuxtLink to="/feedbacks" class="nav-link">
+      <Icon name="ph:chats-light" size="22px" class="lg:hidden" />        
+      <span class="lg:hidden">Feedback</span>
+      <span class="hidden lg:inline">Enviar Feedback</span>
+    </NuxtLink>
+  </nav>
 </template>
 
 <script lang="ts" setup>
@@ -12,7 +22,7 @@
 
 <style scoped>
   .nav-link {
-    @apply text-lg tracking-wide border-b border-transparent transition-colors duration-300 font-roboto font-light
+    @apply flex flex-col items-center text-xs lg:text-lg tracking-wide border-b border-transparent transition-colors duration-300 font-roboto font-light
   }
   .nav-link.router-link-active{
   @apply border-sky-600

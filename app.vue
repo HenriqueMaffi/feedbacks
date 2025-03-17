@@ -2,7 +2,7 @@
   <div>
     <UiHeader />
     <NuxtRouteAnnouncer />
-    <NuxtPage class="min-h-[100svh] pt-12"/>
+    <NuxtPage class="min-h-[100svh] lg:pt-12"/>
     <UiFooter />
   </div>
 </template>
