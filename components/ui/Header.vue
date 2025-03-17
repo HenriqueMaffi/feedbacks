@@ -22,7 +22,7 @@
 
 <style scoped>
   .nav-link {
-    @apply flex flex-col items-center text-xs lg:text-lg tracking-wide border-b border-transparent transition-colors duration-300 font-roboto font-light
+    @apply flex flex-col items-center text-xs lg:text-lg tracking-wide border-b-2 border-transparent transition-colors duration-300 font-roboto font-light
   }
   .nav-link.router-link-active{
   @apply border-sky-600

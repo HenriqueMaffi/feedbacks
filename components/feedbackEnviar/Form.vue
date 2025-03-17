@@ -64,7 +64,7 @@
     </label>
 
     <div class="flex flex-col">
-      <label for="arquivo-feedback">
+      <label for="arquivo-feedback" class="relative">
         Envie um arquivo ou imagem
         <div              
           class="base-input-feedback flex items-center gap-2"
@@ -80,6 +80,12 @@
           accept=".pdf,.jpeg,.jpg,.png,.webp"
           class="hidden"
         >
+        <span 
+          class="absolute top-0 right-0 text-red-600 text-sm transition-opacity duration-200" 
+          :class="{'opacity-0': !alertaArquivoFeedback, 'opacity-100': alertaArquivoFeedback}"
+        >
+          {{ alertaArquivoFeedback }}
+        </span>
       </label>
     </div>
 
@@ -98,8 +104,8 @@ import type { Feedback } from '~/types'
 
 const listaFeedback = useFeedbacks()
 
-const setorAvaliadoSelecionado = ref('')
-const tipoFeedbackSelecionado = ref('')
+const setorAvaliadoSelecionado = ref<'Pré-Atendimento' | 'Vendas' | 'Pós-vendas' | 'Produtos' | ''>('')
+const tipoFeedbackSelecionado = ref<'' | 'Elogio' | 'Sugestão' | 'Crítica'>('')
 const mensagemFeedback = ref('')
 const arquivoFeedbackEnviado = ref<null | File>(null)
 
