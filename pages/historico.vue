@@ -1,43 +1,29 @@
 <template>
   <div class="container mx-auto px-2">
     <div class="flex flex-col bg-gray-100 p-2 mt-4">
-      <div class="flex flex-row mb-2 px-4">
-        <span class="nome-coluna">Data</span>
-        <span class="nome-coluna">Status</span>
-        <span class="nome-coluna">Tipo</span>
-        <span class="nome-coluna">Área</span>
+      <div class="flex flex-row mb-2 sm:px-4 gap-2">
+        <HistoricoDropdownFiltro
+          v-model="filtros.data"
+          :options="dataOptions"
+          placeholder="Data"
+        />
+        <HistoricoDropdownFiltro
+          v-model="filtros.status"
+          :options="statusOptions"
+          placeholder="Status"
+        />
+        <HistoricoDropdownFiltro
+          v-model="filtros.tipo"
+          :options="tipoOptions"
+          placeholder="Tipo"
+        />
+        <HistoricoDropdownFiltro
+          v-model="filtros.setor"
+          :options="setorOptions"
+          placeholder="Setor"
+        />
       </div>
-      <main class="flex flex-col">
-        <div 
-          v-for="feedback in listaFeedback" 
-          :key="feedback.id" 
-          class="grid grid-cols-4 py-2 px-1 sm:px-4 items-center border-t border-zinc-300 max-[380px]:text-xs text-sm sm:text-base transition-colors duration-200 hover:bg-zinc-300 cursor-pointer"
-        >
-          <span class="w-full truncate">{{ feedback.data }}</span>
-
-          <span 
-            class="text-zinc-600 flex" 
-            :class="{'text-green-700': feedback.status === 'Respondido'}"
-          >
-            <Icon 
-              :name="feedback.status === 'Respondido' ? 'ph:check-bold' : 'ph:x-bold'" 
-              size="20px" 
-            />
-          </span>
-
-          <span 
-            class="w-[65px] sm:w-[80px] rounded-full text-xs sm:text-sm text-center px-1 py-0.5 font-semibold" 
-            :class="{
-              'bg-green-100 text-green-900': feedback.tipo === 'Elogio',
-              'bg-gray-200 text-gray-700': feedback.tipo === 'Sugestão',
-              'bg-red-100 text-red-900': feedback.tipo === 'Crítica'
-            }"
-          >
-            {{ feedback.tipo }}
-          </span>
-          <span class="w-full truncate">{{ feedback.area }}</span>
-        </div>
-      </main>
+      <HistoricoLista :lista-feedbacks="listaFeedbackFiltrada" />
     </div>
   </div>
 </template>
@@ -45,10 +31,74 @@
 <script lang="ts" setup>
 const listaFeedback = useFeedbacks()
 
-</script>
+const filtros = reactive({
+  status: "",
+  setor: "",
+  tipo: "",
+  data: "Recentes", 
+});
 
-<style scoped>
-.nome-coluna{
-  @apply font-semibold text-xs uppercase w-1/4
-}
-</style>
+// Converte a data para YYYY-MM-DD
+function formataDataParaFiltro(data: string) {
+  const [dia, mes, ano] = data.split('/');
+  return `${ano}-${mes}-${dia}`; 
+};
+
+const listaFeedbackFiltrada = computed(() => {
+  let resultado = listaFeedback.value;
+
+  if (filtros.status) {
+    resultado = resultado.filter((feedback) => feedback.status === filtros.status);
+  }
+
+  if (filtros.setor) {
+    resultado = resultado.filter((feedback) => feedback.setor === filtros.setor);
+  }
+
+  if (filtros.tipo) {
+    resultado = resultado.filter((feedback) => feedback.tipo === filtros.tipo);
+  }
+
+  if (filtros.data === "Recentes") {
+    resultado = resultado.sort((a, b) => {
+      const dateA = formataDataParaFiltro(a.data);
+      const dateB = formataDataParaFiltro(b.data);
+      return new Date(dateB).getTime() - new Date(dateA).getTime();
+    });
+  } else if (filtros.data === "Antigos") {
+    resultado = resultado.sort((a, b) => {
+      const dateA = formataDataParaFiltro(a.data);
+      const dateB = formataDataParaFiltro(b.data);
+      return new Date(dateA).getTime() - new Date(dateB).getTime();
+    });
+  }
+
+  return resultado;
+});
+
+const statusOptions = [
+  { value: '', label: 'Status' },
+  { value: 'Pendente', label: 'Pendente' },
+  { value: 'Respondido', label: 'Respondido' },
+];
+
+const setorOptions = [
+  { value: '', label: 'Setor' },
+  { value: 'Pré-atendimento', label: 'Pré-atendimento' },
+  { value: 'Vendas', label: 'Vendas' },
+  { value: 'Pós-vendas', label: 'Pós-vendas' },
+  { value: 'Produtos', label: 'Produtos' },
+];
+
+const tipoOptions = [
+  { value: '', label: 'Tipo' },
+  { value: 'Elogio', label: 'Elogio' },
+  { value: 'Sugestão', label: 'Sugestão' },
+  { value: 'Crítica', label: 'Crítica' },
+];
+
+const dataOptions = [
+  { value: 'Recentes', label: 'Recentes' },
+  { value: 'Antigos', label: 'Antigos' },
+];
+</script>
