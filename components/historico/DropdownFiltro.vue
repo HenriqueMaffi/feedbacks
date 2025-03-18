@@ -5,7 +5,9 @@
       class="dropdown-header cursor-pointer flex justify-between items-center max-[380px]:text-[11px] rounded text-xs xl:text-sm font-semibold uppercase w-full min-w-10 lg:w-60 truncate" 
     >
       {{ labelSelecionada || placeholder }}
-      <span class="text-[12px] transition-transform duration-300" :class="{'rotate-180': dropdownAberto}">▼</span>
+      <span class="text-[12px] transition-transform duration-300" :class="{'rotate-180': dropdownAberto}">
+        <Icon name="ph:caret-down" size="18px" class="block" />
+      </span>
     </div>
     <ul 
       v-if="dropdownAberto" 

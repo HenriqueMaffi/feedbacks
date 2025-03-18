@@ -8,9 +8,24 @@ export default defineNuxtConfig({
       Roboto: [100, 300, 400, 700],
       Inter: [400, 700],
       Lato: [100, 300, 400, 700],
-      Raleway: {
-        wght: [100, 400]
-      }
+      Raleway: [100, 400]
+    }
+  },
+  icon: {
+    clientBundle: {
+      icons: [
+        'ph:upload-bold',
+        'ph:upload-simple',
+        'ph:x-bold',
+        'ph:check-bold',
+        'ph:chats-circle',
+        'ph:chat-circle',
+        'ph:pencil',
+        'ph:squares-four-light',
+        'ph:file-search-light',
+        'ph:chats-light',
+        'ph:caret-down'
+      ]
     }
   },
   ssr: false,
