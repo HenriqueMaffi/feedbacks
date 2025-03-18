@@ -1,6 +1,6 @@
 <template>
   <div class="container mx-auto px-2">
-    <div class="flex flex-col bg-gray-100 p-2 mt-4">
+    <div class="flex flex-col bg-gray-100 rounded p-2 my-4">
       <div class="flex flex-row mb-2 sm:px-4 gap-2">
         <HistoricoDropdownFiltro
           v-model="filtros.data"

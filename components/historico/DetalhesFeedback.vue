@@ -21,7 +21,7 @@
       >
         {{ feedback.tipo }}
       </h2>
-      <button @click="$emit('fechar')" type="button" class="font-semibold text-gray-500 hover:bg-gray-200 rounded-full p-1 place-self-end transition-colors duration-200">
+      <button @click="$emit('fechar')" type="button" class="font-semibold text-gray-500 hover:bg-gray-100 rounded-full p-1 place-self-end transition-colors duration-200">
         <Icon name="ph:x-bold" size="24px" class="block"/>
       </button>
     </div>
@@ -52,7 +52,7 @@
         type="button"
         v-else-if="!feedback.resposta && !respostaInputEtapa" 
         @click="respostaInputEtapa = 'edicao'"
-        class="flex gap-4 items-center justify-center mt-8 w-full rounded-lg hover:bg-sky-300 hover:shadow-md px-4 py-3 transition-[background-color_shadow] duration-200"
+        class="flex gap-4 items-center justify-center mt-8 w-full rounded-lg hover:bg-fb-300 hover:text-white hover:shadow-md px-4 py-3 transition-[background-color_shadow] duration-200"
       >
         <Icon name="ph:pencil" size="24px" class="block"/>
         Escrever resposta
@@ -69,10 +69,10 @@
           @input="alertaRespostaFeedback = ''"
           placeholder="Escreva a resposta ao feedback" 
           rows="4" 
-          class="w-full p-2 border rounded-lg text-sm outline-none resize-none transition-colors duration-200 focus:border-sky-500"
+          class="w-full p-2 border rounded-lg text-sm outline-none resize-none transition-colors duration-200 focus:border-fb-500"
           :class="{'border-red-500': alertaRespostaFeedback}"
         ></textarea>
-        <button type="submit" class="flex gap-4 items-center justify-center w-full rounded-lg hover:bg-sky-300 hover:shadow-md px-4 py-3 transition-[background-color_shadow] duration-200">
+        <button type="submit" class="flex gap-4 items-center justify-center w-full rounded-lg hover:bg-fb-300 hover:text-white hover:shadow-md px-4 py-3 transition-[background-color_shadow] duration-200">
           <Icon name="ph:upload-simple" size="24px" class="block"/>
           Enviar resposta
         </button>

@@ -10,14 +10,15 @@
 }
 
 body {
-	@apply bg-sky-100 overflow-x-hidden; 
+	/* background-image: linear-gradient( 90deg,  rgb(8,81,98) 14%, rgb(198,231,249) 135% ); */
+	@apply bg-gradient-to-r from-[#085162_14%] to-[#C6E7F9_230%] lg:to-[#C6E7F9_135%] overflow-x-hidden;
 }
 
 ::-webkit-scrollbar {
-	width: 8px;
+	@apply w-2;
 }
 ::-webkit-scrollbar-track {
-	background: #ffffff;
+	@apply bg-white;
 }
 ::-webkit-scrollbar-thumb {
   @apply bg-zinc-400;
@@ -26,23 +27,21 @@ body {
 /* Animacao PAGINA */
 .page-enter-active,
 .page-leave-active {
-	transition: all 0.15s;
+	@apply transition-all;
 }
 .page-enter-from,
 .page-leave-to {
-	opacity: 0;
+	@apply opacity-0
 }
 
 /* Animacao PADRAO */
-.v-enter-from {
-	opacity: 0;
+.v-enter-from,
+.v-leave-to {
+	@apply opacity-0
 }
 .v-enter-active,
 .v-leave-active {
-	transition: opacity 0.2s ease;
-}
-.v-leave-to {
-	opacity: 0;
+	@apply transition-opacity duration-200;
 }
 
 /* Animacao VEM DA DIREITA */

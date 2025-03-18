@@ -18,4 +18,12 @@ function recebeFeedback(feedback: Feedback){
   listaFeedback.value.push(feedback)
   envioDoFeedback.value = true;
 }
+
+
 </script>
+
+<style>
+.gradient-bg{
+  background: linear-gradient(160deg, #24b2eb 10%, #053D54 100%);
+}
+</style>

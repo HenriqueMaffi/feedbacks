@@ -4,7 +4,8 @@
       v-for="feedback in listaFeedbacks" 
       :key="feedback.id"
       @click="feedbackSelecionado = feedback"
-      class="grid grid-cols-4 py-2 px-1 sm:px-4 items-center border-t border-zinc-300 max-[380px]:text-xs text-sm sm:text-base transition-colors duration-200 hover:bg-sky-200 cursor-pointer"
+      class="grid grid-cols-4 py-2 px-1 sm:px-4 items-center border-t border-zinc-300 max-[380px]:text-xs text-sm sm:text-base transition-colors duration-200 hover:bg-fb-100 cursor-pointer"
+      :class="{ 'bg-fb-100': feedbackSelecionado === feedback }"
     >
       <span class="w-full truncate">{{ feedback.data }}</span>
 
@@ -38,8 +39,6 @@
         <HistoricoOverlay v-if="feedbackSelecionado" @fechar="feedbackSelecionado = null" />
       </transition>
     </teleport>
-    <div class="absolute p-4 bg-black text-white top-10 left-10 ">{{ isMobile }}</div>
-
   </main>
 </template>
 

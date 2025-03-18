@@ -70,7 +70,7 @@
           class="base-input-feedback flex items-center gap-2"
           :class="{'border-gray-200': !alertaArquivoFeedback, 'border-red-500': alertaArquivoFeedback}"
         >
-          <Icon name="ph:upload-bold" class="text-sky-600 shrink-0"/>
+          <Icon name="ph:upload-bold" class="text-fb-300 shrink-0"/>
           <span class="truncate">{{ !arquivoFeedbackEnviado ? 'Nenhum arquivo selecionado' : arquivoFeedbackEnviado.name }}</span>
         </div>
         <input 
@@ -91,7 +91,8 @@
 
     <button 
       type="submit" 
-      class="px-6 py-2 mt-6 rounded bg-sky-500 shadow-md text-sm text-gray-100 xl:hover:bg-sky-400 transition-colors duration-200"
+      aria-label="Enviar feedback"
+      class="px-6 py-2 mt-6 rounded bg-fb-500 shadow-md text-sm text-gray-100 xl:hover:bg-fb-700 transition-colors duration-200"
     >
       Enviar Feedback
     </button>
@@ -187,7 +188,7 @@ function novaData(){
 
 <style scoped>
 .base-input-feedback{
-  @apply font-normal text-base rounded py-2 px-4 w-full border shadow-sm bg-gray-50 outline-none focus:border-sky-500 transition-colors duration-200
+  @apply font-normal text-base rounded py-2 px-4 w-full border shadow-sm bg-gray-50 outline-none focus:border-fb-500 transition-colors duration-200
 }
 
 </style>
