@@ -15,12 +15,7 @@
         <option v-for="setor in Setores" :value="setor">{{ setor }}</option>
       </select>
 
-      <span 
-        class="absolute top-0 right-0 text-red-600 text-sm transition-opacity duration-200" 
-        :class="{'opacity-0': !alertaSetorAvaliado, 'opacity-100': alertaSetorAvaliado}"
-      >
-        campo obrigatório
-      </span>
+      <FeedbackEnviarFormAlerta :alerta="alertaSetorAvaliado" />
     </label>
 
     <label for="tipo-feedback" class="relative">
@@ -35,13 +30,7 @@
         <option value="" selected disabled hidden></option>
         <option v-for="tipo in Tipos" :value="tipo">{{ tipo }}</option>
       </select>
-
-      <span 
-        class="absolute top-0 right-0 text-red-600 text-sm transition-opacity duration-200" 
-        :class="{'opacity-0': !alertaTipoFeedback, 'opacity-100': alertaTipoFeedback}"
-      >
-        campo obrigatório
-      </span>
+      <FeedbackEnviarFormAlerta :alerta="alertaTipoFeedback" />
     </label>
 
     <label for="mensagem-feedback" class="relative">
@@ -55,12 +44,7 @@
         class="base-input-feedback resize-none"
         :class="{'border-gray-200': !alertaMensagemFeedback, 'border-red-500': alertaMensagemFeedback}"
       ></textarea>
-      <span 
-        class="absolute top-0 right-0 text-red-600 text-sm transition-opacity duration-200" 
-        :class="{'opacity-0': !alertaMensagemFeedback, 'opacity-100': alertaMensagemFeedback}"
-      >
-        {{ alertaMensagemFeedback }}
-      </span>
+      <FeedbackEnviarFormAlerta :alerta="alertaMensagemFeedback" />
     </label>
 
     <div class="flex flex-col">
@@ -80,21 +64,17 @@
           accept=".pdf,.jpeg,.jpg,.png,.webp"
           class="hidden"
         >
-        <span 
-          class="absolute top-0 right-0 text-red-600 text-sm transition-opacity duration-200" 
-          :class="{'opacity-0': !alertaArquivoFeedback, 'opacity-100': alertaArquivoFeedback}"
-        >
-          {{ alertaArquivoFeedback }}
-        </span>
+        <FeedbackEnviarFormAlerta :alerta="alertaArquivoFeedback" />
       </label>
     </div>
 
     <button 
       type="submit" 
       aria-label="Enviar feedback"
-      class="px-6 py-2 mt-6 rounded bg-fb-500 shadow-md text-sm text-gray-100 xl:hover:bg-fb-700 transition-colors duration-200"
+      class="flex items-center justify-center gap-2 px-6 py-2 mt-6 rounded bg-fb-500 shadow-md text-sm text-gray-100 xl:hover:bg-fb-700 transition-colors duration-200 group"
     >
       Enviar Feedback
+      <Icon size="20px" name="mingcute:send-plane-fill" class="transition-transform duration-300 ease-in-out group-hover:rotate-[20deg]"></Icon>
     </button>
   </form>
 </template>
@@ -110,8 +90,8 @@ const tipoFeedbackSelecionado = ref<'' | 'Elogio' | 'Sugestão' | 'Crítica'>(''
 const mensagemFeedback = ref('')
 const arquivoFeedbackEnviado = ref<null | File>(null)
 
-const alertaSetorAvaliado = ref(false)
-const alertaTipoFeedback = ref(false)
+const alertaSetorAvaliado = ref('')
+const alertaTipoFeedback = ref('')
 const alertaMensagemFeedback = ref('')
 const alertaArquivoFeedback = ref('')
 
@@ -136,8 +116,8 @@ function verificaArquivoEnviado(event: Event) {
 };
 
 function limpaAlertas(tipoInput: string){
-  tipoInput === 'setor' ? alertaSetorAvaliado.value = false :
-  tipoInput === 'tipo' ? alertaTipoFeedback.value = false :
+  tipoInput === 'setor' ? alertaSetorAvaliado.value = '' :
+  tipoInput === 'tipo' ? alertaTipoFeedback.value = '' :
   tipoInput === 'mensagem' ? alertaMensagemFeedback.value = '' :
   alertaArquivoFeedback.value = ''
 }
@@ -145,10 +125,10 @@ function limpaAlertas(tipoInput: string){
 
 function validaInputsFeedback(){
   if (!setorAvaliadoSelecionado.value) {
-    alertaSetorAvaliado.value = true;
+    alertaSetorAvaliado.value = 'campo obrigatório';
   }
   if (!tipoFeedbackSelecionado.value) {
-    alertaTipoFeedback.value = true;
+    alertaTipoFeedback.value = 'campo obrigatório';
   }
   if (!mensagemFeedback.value) {
     alertaMensagemFeedback.value = 'campo obrigatório';
@@ -190,5 +170,6 @@ function novaData(){
 .base-input-feedback{
   @apply font-normal text-base rounded py-2 px-4 w-full border shadow-sm bg-gray-50 outline-none focus:border-fb-500 transition-colors duration-200
 }
+
 
 </style>
