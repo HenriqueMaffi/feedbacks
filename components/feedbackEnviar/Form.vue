@@ -100,7 +100,7 @@
 </template>
 
 <script lang="ts" setup>
-import {Tipos, Setores } from 'assets/data.json'
+import { Tipos, Setores } from 'assets/data.json'
 import type { Feedback } from '~/types'
 
 const listaFeedback = useFeedbacks()

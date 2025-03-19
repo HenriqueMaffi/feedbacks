@@ -1,6 +1,6 @@
 <template>
   <main class="container mx-auto grid place-items-center grid-cols-1 lg:grid-cols-2 grid-rows-auto lg:grid-rows-1 gap-10 lg:gap-20 px-3 pb-10 lg:pb-0">
-    <Feedback-enviarTitulo />
+    <Feedback-enviarApresentacao />
     <transition mode="out-in">
       <FeedbackEnviarForm v-if="!envioDoFeedback" @submit-feedback="recebeFeedback"/>
       <FeedbackEnviarFeedbackEnviado v-else @novo-feedback="envioDoFeedback = false" />
