@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
   devtools: { enabled: true },
-  modules: ['@nuxtjs/tailwindcss', '@nuxt/icon', '@nuxtjs/google-fonts'],
+  modules: ['@nuxtjs/tailwindcss', '@nuxt/icon', '@nuxtjs/google-fonts', '@pinia/nuxt'],
   googleFonts: {
     families: {
       Roboto: [100, 300, 400, 700],
@@ -13,19 +13,7 @@ export default defineNuxtConfig({
   },
   icon: {
     clientBundle: {
-      icons: [
-        'ph:upload-bold',
-        'ph:upload-simple',
-        'ph:x-bold',
-        'ph:check-bold',
-        'ph:chats-circle',
-        'ph:chat-circle',
-        'ph:pencil',
-        'ph:squares-four-light',
-        'ph:file-search-light',
-        'ph:chats-light',
-        'ph:caret-down'
-      ]
+      scan: true
     }
   },
   ssr: false,

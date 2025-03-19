@@ -1,0 +1,1024 @@
+{
+  "Feedbacks": [
+    {
+      "id": 1,
+      "data": "15/03/2023",
+      "status": "Respondido",
+      "setor": "Pré-atendimento",
+      "tipo": "Elogio",
+      "mensagem": "Fui muito bem atendido pela Ana, ela foi muito prestativa!",
+      "resposta": "Ficamos felizes em saber, a Ana é uma excelente profissional!",
+      "arquivo": null
+    },
+    {
+      "id": 2,
+      "data": "22/07/2022",
+      "status": "Pendente",
+      "setor": "Pré-atendimento",
+      "tipo": "Sugestão",
+      "mensagem": "Seria interessante ter mais opções de pagamento no site.",
+      "resposta": "",
+      "arquivo": null
+    },
+    {
+      "id": 3,
+      "data": "10/11/2022",
+      "status": "Respondido",
+      "setor": "Pré-atendimento",
+      "tipo": "Crítica",
+      "mensagem": "O atendente foi rude ao telefone, não gostei do tratamento.",
+      "resposta": "Lamentamos o ocorrido. Vamos reforçar o treinamento da equipe.",
+      "arquivo": null
+    },
+    {
+      "id": 4,
+      "data": "05/01/2023",
+      "status": "Respondido",
+      "setor": "Pré-atendimento",
+      "tipo": "Elogio",
+      "mensagem": "O Carlos foi muito atencioso e resolveu meu problema rapidamente!",
+      "resposta": "Que bom que teve uma boa experiência, o Carlos é um dos nossos melhores!",
+      "arquivo": null
+    },
+    {
+      "id": 5,
+      "data": "18/09/2022",
+      "status": "Pendente",
+      "setor": "Pré-atendimento",
+      "tipo": "Sugestão",
+      "mensagem": "Sugiro que o horário de atendimento seja estendido.",
+      "resposta": "",
+      "arquivo": null
+    },
+    {
+      "id": 6,
+      "data": "30/05/2022",
+      "status": "Respondido",
+      "setor": "Pré-atendimento",
+      "tipo": "Crítica",
+      "mensagem": "Demoraram muito para responder minha solicitação.",
+      "resposta": "Pedimos desculpas pelo atraso. Estamos melhorando nossos processos.",
+      "arquivo": null
+    },
+    {
+      "id": 7,
+      "data": "12/12/2022",
+      "status": "Respondido",
+      "setor": "Pré-atendimento",
+      "tipo": "Elogio",
+      "mensagem": "A equipe de pré-atendimento foi muito eficiente, parabéns!",
+      "resposta": "Agradecemos o elogio, nossa equipe se esforça para oferecer o melhor!",
+      "arquivo": null
+    },
+    {
+      "id": 8,
+      "data": "08/02/2023",
+      "status": "Pendente",
+      "setor": "Pré-atendimento",
+      "tipo": "Sugestão",
+      "mensagem": "Poderia haver mais informações sobre os produtos no site.",
+      "resposta": "",
+      "arquivo": null
+    },
+    {
+      "id": 9,
+      "data": "25/04/2022",
+      "status": "Respondido",
+      "setor": "Pré-atendimento",
+      "tipo": "Crítica",
+      "mensagem": "O atendimento foi confuso, não consegui resolver meu problema.",
+      "resposta": "Lamentamos pela confusão. Vamos revisar o procedimento para evitar isso.",
+      "arquivo": null
+    },
+    {
+      "id": 10,
+      "data": "14/08/2022",
+      "status": "Respondido",
+      "setor": "Pré-atendimento",
+      "tipo": "Elogio",
+      "mensagem": "A Maria foi incrível, muito simpática e resolveu tudo rapidamente!",
+      "resposta": "Ficamos felizes em saber, a Maria é uma profissional exemplar!",
+      "arquivo": null
+    },
+    {
+      "id": 11,
+      "data": "03/06/2022",
+      "status": "Pendente",
+      "setor": "Pré-atendimento",
+      "tipo": "Sugestão",
+      "mensagem": "Seria útil ter um chat online para tirar dúvidas.",
+      "resposta": "",
+      "arquivo": null
+    },
+    {
+      "id": 12,
+      "data": "19/10/2022",
+      "status": "Respondido",
+      "setor": "Pré-atendimento",
+      "tipo": "Crítica",
+      "mensagem": "O atendente não soube explicar as condições de pagamento.",
+      "resposta": "Pedimos desculpas pelo ocorrido. Vamos treinar melhor a equipe.",
+      "arquivo": null
+    },
+    {
+      "id": 13,
+      "data": "27/02/2023",
+      "status": "Respondido",
+      "setor": "Pré-atendimento",
+      "tipo": "Elogio",
+      "mensagem": "O atendimento foi excelente, o João foi muito prestativo!",
+      "resposta": "Agradecemos o feedback, o João é um dos nossos destaques!",
+      "arquivo": null
+    },
+    {
+      "id": 14,
+      "data": "09/07/2022",
+      "status": "Pendente",
+      "setor": "Pré-atendimento",
+      "tipo": "Sugestão",
+      "mensagem": "Sugiro que o site tenha mais fotos dos produtos.",
+      "resposta": "",
+      "arquivo": null
+    },
+    {
+      "id": 15,
+      "data": "21/03/2023",
+      "status": "Respondido",
+      "setor": "Pré-atendimento",
+      "tipo": "Crítica",
+      "mensagem": "O atendente não tinha conhecimento sobre o produto que eu queria.",
+      "resposta": "Lamentamos o ocorrido. Vamos reforçar o treinamento sobre os produtos.",
+      "arquivo": null
+    },
+    {
+      "id": 16,
+      "data": "11/05/2022",
+      "status": "Respondido",
+      "setor": "Pré-atendimento",
+      "tipo": "Elogio",
+      "mensagem": "A equipe foi muito ágil e resolveu meu problema em minutos!",
+      "resposta": "Ficamos felizes em ajudar, nossa equipe está sempre pronta!",
+      "arquivo": null
+    },
+    {
+      "id": 17,
+      "data": "29/09/2022",
+      "status": "Pendente",
+      "setor": "Pré-atendimento",
+      "tipo": "Sugestão",
+      "mensagem": "Seria bom ter um sistema de avaliação dos produtos.",
+      "resposta": "",
+      "arquivo": null
+    },
+    {
+      "id": 18,
+      "data": "06/12/2022",
+      "status": "Respondido",
+      "setor": "Pré-atendimento",
+      "tipo": "Crítica",
+      "mensagem": "O atendente não foi claro nas informações fornecidas.",
+      "resposta": "Pedimos desculpas pela falha. Vamos melhorar a comunicação.",
+      "arquivo": null
+    },
+    {
+      "id": 19,
+      "data": "17/01/2023",
+      "status": "Respondido",
+      "setor": "Pré-atendimento",
+      "tipo": "Elogio",
+      "mensagem": "A Ana foi muito atenciosa e resolveu tudo rapidamente!",
+      "resposta": "Agradecemos o elogio, a Ana é uma profissional dedicada!",
+      "arquivo": null
+    },
+    {
+      "id": 20,
+      "data": "23/08/2022",
+      "status": "Pendente",
+      "setor": "Pré-atendimento",
+      "tipo": "Sugestão",
+      "mensagem": "Sugiro que o site tenha um filtro de busca mais eficiente.",
+      "resposta": "",
+      "arquivo": null
+    },
+    {
+      "id": 21,
+      "data": "04/04/2022",
+      "status": "Respondido",
+      "setor": "Pré-atendimento",
+      "tipo": "Crítica",
+      "mensagem": "O atendente não soube resolver meu problema.",
+      "resposta": "Lamentamos o ocorrido. Vamos treinar melhor a equipe.",
+      "arquivo": null
+    },
+    {
+      "id": 22,
+      "data": "13/06/2022",
+      "status": "Respondido",
+      "setor": "Pré-atendimento",
+      "tipo": "Elogio",
+      "mensagem": "O atendimento foi excelente, o Pedro foi muito prestativo!",
+      "resposta": "Ficamos felizes em saber, o Pedro é um ótimo profissional!",
+      "arquivo": null
+    },
+    {
+      "id": 23,
+      "data": "20/02/2023",
+      "status": "Pendente",
+      "setor": "Pré-atendimento",
+      "tipo": "Sugestão",
+      "mensagem": "Seria interessante ter mais detalhes sobre o prazo de entrega.",
+      "resposta": "",
+      "arquivo": null
+    },
+    {
+      "id": 24,
+      "data": "07/10/2022",
+      "status": "Respondido",
+      "setor": "Pré-atendimento",
+      "tipo": "Crítica",
+      "mensagem": "O atendente não foi cordial durante o atendimento.",
+      "resposta": "Pedimos desculpas pelo ocorrido. Vamos reforçar o treinamento.",
+      "arquivo": null
+    },
+    {
+      "id": 25,
+      "data": "01/03/2023",
+      "status": "Respondido",
+      "setor": "Pré-atendimento",
+      "tipo": "Elogio",
+      "mensagem": "A equipe foi muito eficiente e resolveu meu problema rapidamente!",
+      "resposta": "Agradecemos o feedback, nossa equipe está sempre pronta para ajudar!",
+      "arquivo": null
+    },
+    {
+      "id": 26,
+      "data": "14/05/2022",
+      "status": "Respondido",
+      "setor": "Vendas",
+      "tipo": "Elogio",
+      "mensagem": "O vendedor foi muito atencioso e me ajudou a escolher o produto ideal!",
+      "resposta": "Ficamos felizes em saber, nosso time de vendas está sempre pronto para ajudar!",
+      "arquivo": null
+    },
+    {
+      "id": 27,
+      "data": "22/09/2022",
+      "status": "Pendente",
+      "setor": "Vendas",
+      "tipo": "Sugestão",
+      "mensagem": "Seria interessante ter mais promoções para clientes fiéis.",
+      "resposta": "",
+      "arquivo": null
+    },
+    {
+      "id": 28,
+      "data": "10/12/2022",
+      "status": "Respondido",
+      "setor": "Vendas",
+      "tipo": "Crítica",
+      "mensagem": "O vendedor não soube explicar as diferenças entre os produtos.",
+      "resposta": "Pedimos desculpas pelo ocorrido. Vamos reforçar o treinamento da equipe.",
+      "arquivo": null
+    },
+    {
+      "id": 29,
+      "data": "05/03/2023",
+      "status": "Respondido",
+      "setor": "Vendas",
+      "tipo": "Elogio",
+      "mensagem": "A equipe de vendas foi incrível, me ajudou a encontrar exatamente o que eu precisava!",
+      "resposta": "Agradecemos o feedback, nosso time está sempre à disposição!",
+      "arquivo": null
+    },
+    {
+      "id": 30,
+      "data": "18/07/2022",
+      "status": "Pendente",
+      "setor": "Vendas",
+      "tipo": "Sugestão",
+      "mensagem": "Sugiro que o site tenha mais informações sobre os materiais dos produtos.",
+      "resposta": "",
+      "arquivo": null
+    },
+    {
+      "id": 31,
+      "data": "30/01/2023",
+      "status": "Respondido",
+      "setor": "Vendas",
+      "tipo": "Crítica",
+      "mensagem": "O vendedor foi muito insistente e não respeitou meu tempo.",
+      "resposta": "Lamentamos o ocorrido. Vamos reforçar a abordagem da equipe.",
+      "arquivo": null
+    },
+    {
+      "id": 32,
+      "data": "12/11/2022",
+      "status": "Respondido",
+      "setor": "Vendas",
+      "tipo": "Elogio",
+      "mensagem": "O atendimento foi excelente, o vendedor foi muito prestativo!",
+      "resposta": "Ficamos felizes em saber, nosso time se esforça para oferecer o melhor!",
+      "arquivo": null
+    },
+    {
+      "id": 33,
+      "data": "08/04/2022",
+      "status": "Pendente",
+      "setor": "Vendas",
+      "tipo": "Sugestão",
+      "mensagem": "Poderia haver mais opções de parcelamento no site.",
+      "resposta": "",
+      "arquivo": null
+    },
+    {
+      "id": 34,
+      "data": "25/06/2022",
+      "status": "Respondido",
+      "setor": "Vendas",
+      "tipo": "Crítica",
+      "mensagem": "O vendedor não tinha conhecimento sobre o produto que eu queria.",
+      "resposta": "Lamentamos pela falha. Vamos reforçar o treinamento sobre os produtos.",
+      "arquivo": null
+    },
+    {
+      "id": 35,
+      "data": "14/08/2022",
+      "status": "Respondido",
+      "setor": "Vendas",
+      "tipo": "Elogio",
+      "mensagem": "A vendedora foi incrível, muito simpática e resolveu tudo rapidamente!",
+      "resposta": "Ficamos felizes em saber, ela é uma profissional exemplar!",
+      "arquivo": null
+    },
+    {
+      "id": 36,
+      "data": "03/09/2022",
+      "status": "Pendente",
+      "setor": "Vendas",
+      "tipo": "Sugestão",
+      "mensagem": "Seria útil ter um chat online para tirar dúvidas sobre os produtos.",
+      "resposta": "",
+      "arquivo": null
+    },
+    {
+      "id": 37,
+      "data": "19/10/2022",
+      "status": "Respondido",
+      "setor": "Vendas",
+      "tipo": "Crítica",
+      "mensagem": "O vendedor não soube explicar as condições de pagamento.",
+      "resposta": "Pedimos desculpas pelo ocorrido. Vamos treinar melhor a equipe.",
+      "arquivo": null
+    },
+    {
+      "id": 38,
+      "data": "27/02/2023",
+      "status": "Respondido",
+      "setor": "Vendas",
+      "tipo": "Elogio",
+      "mensagem": "O atendimento foi excelente, o vendedor foi muito prestativo!",
+      "resposta": "Agradecemos o feedback, nosso time está sempre à disposição!",
+      "arquivo": null
+    },
+    {
+      "id": 39,
+      "data": "09/07/2022",
+      "status": "Pendente",
+      "setor": "Vendas",
+      "tipo": "Sugestão",
+      "mensagem": "Sugiro que o site tenha mais fotos dos produtos.",
+      "resposta": "",
+      "arquivo": null
+    },
+    {
+      "id": 40,
+      "data": "21/03/2023",
+      "status": "Respondido",
+      "setor": "Vendas",
+      "tipo": "Crítica",
+      "mensagem": "O vendedor não soube resolver minha dúvida sobre o prazo de entrega.",
+      "resposta": "Lamentamos o ocorrido. Vamos reforçar o treinamento sobre os prazos.",
+      "arquivo": null
+    },
+    {
+      "id": 41,
+      "data": "11/05/2022",
+      "status": "Respondido",
+      "setor": "Vendas",
+      "tipo": "Elogio",
+      "mensagem": "A equipe foi muito ágil e resolveu meu problema em minutos!",
+      "resposta": "Ficamos felizes em ajudar, nossa equipe está sempre pronta!",
+      "arquivo": null
+    },
+    {
+      "id": 42,
+      "data": "29/09/2022",
+      "status": "Pendente",
+      "setor": "Vendas",
+      "tipo": "Sugestão",
+      "mensagem": "Seria bom ter um sistema de avaliação dos produtos.",
+      "resposta": "",
+      "arquivo": null
+    },
+    {
+      "id": 43,
+      "data": "06/12/2022",
+      "status": "Respondido",
+      "setor": "Vendas",
+      "tipo": "Crítica",
+      "mensagem": "O vendedor não foi claro nas informações fornecidas.",
+      "resposta": "Pedimos desculpas pela falha. Vamos melhorar a comunicação.",
+      "arquivo": null
+    },
+    {
+      "id": 44,
+      "data": "17/01/2023",
+      "status": "Respondido",
+      "setor": "Vendas",
+      "tipo": "Elogio",
+      "mensagem": "A vendedora foi muito atenciosa e resolveu tudo rapidamente!",
+      "resposta": "Agradecemos o elogio, ela é uma profissional dedicada!",
+      "arquivo": null
+    },
+    {
+      "id": 45,
+      "data": "23/08/2022",
+      "status": "Pendente",
+      "setor": "Vendas",
+      "tipo": "Sugestão",
+      "mensagem": "Sugiro que o site tenha um filtro de busca mais eficiente.",
+      "resposta": "",
+      "arquivo": null
+    },
+    {
+      "id": 46,
+      "data": "04/04/2022",
+      "status": "Respondido",
+      "setor": "Vendas",
+      "tipo": "Crítica",
+      "mensagem": "O vendedor não soube resolver meu problema.",
+      "resposta": "Lamentamos o ocorrido. Vamos treinar melhor a equipe.",
+      "arquivo": null
+    },
+    {
+      "id": 47,
+      "data": "13/06/2022",
+      "status": "Respondido",
+      "setor": "Vendas",
+      "tipo": "Elogio",
+      "mensagem": "O atendimento foi excelente, o vendedor foi muito prestativo!",
+      "resposta": "Ficamos felizes em saber, ele é um ótimo profissional!",
+      "arquivo": null
+    },
+    {
+      "id": 48,
+      "data": "20/02/2023",
+      "status": "Pendente",
+      "setor": "Vendas",
+      "tipo": "Sugestão",
+      "mensagem": "Seria interessante ter mais detalhes sobre o prazo de entrega.",
+      "resposta": "",
+      "arquivo": null
+    },
+    {
+      "id": 49,
+      "data": "07/10/2022",
+      "status": "Respondido",
+      "setor": "Vendas",
+      "tipo": "Crítica",
+      "mensagem": "O vendedor não foi cordial durante o atendimento.",
+      "resposta": "Pedimos desculpas pelo ocorrido. Vamos reforçar o treinamento.",
+      "arquivo": null
+    },
+    {
+      "id": 50,
+      "data": "01/03/2023",
+      "status": "Respondido",
+      "setor": "Vendas",
+      "tipo": "Elogio",
+      "mensagem": "A equipe foi muito eficiente e resolveu meu problema rapidamente!",
+      "resposta": "Agradecemos o feedback, nossa equipe está sempre pronta para ajudar!",
+      "arquivo": null
+    },
+    {
+      "id": 51,
+      "data": "12/04/2022",
+      "status": "Pendente",
+      "setor": "Vendas",
+      "tipo": "Sugestão",
+      "mensagem": "Seria bom ter mais opções de cores para os produtos.",
+      "resposta": "",
+      "arquivo": null
+    },
+    {
+      "id": 52,
+      "data": "28/07/2022",
+      "status": "Respondido",
+      "setor": "Vendas",
+      "tipo": "Crítica",
+      "mensagem": "O vendedor não soube explicar as garantias do produto.",
+      "resposta": "Lamentamos o ocorrido. Vamos reforçar o treinamento sobre garantias.",
+      "arquivo": null
+    },
+    {
+      "id": 53,
+      "data": "15/09/2022",
+      "status": "Respondido",
+      "setor": "Vendas",
+      "tipo": "Elogio",
+      "mensagem": "O vendedor foi muito atencioso e me ajudou a escolher o produto ideal!",
+      "resposta": "Ficamos felizes em saber, nosso time de vendas está sempre pronto para ajudar!",
+      "arquivo": null
+    },
+    {
+      "id": 54,
+      "data": "03/05/2022",
+      "status": "Pendente",
+      "setor": "Vendas",
+      "tipo": "Sugestão",
+      "mensagem": "Seria interessante ter mais informações sobre os tamanhos dos produtos.",
+      "resposta": "",
+      "arquivo": null
+    },
+    {
+      "id": 55,
+      "data": "19/11/2022",
+      "status": "Respondido",
+      "setor": "Vendas",
+      "tipo": "Crítica",
+      "mensagem": "O vendedor não soube explicar as diferenças entre os modelos.",
+      "resposta": "Pedimos desculpas pelo ocorrido. Vamos reforçar o treinamento da equipe.",
+      "arquivo": null
+    },
+    {
+      "id": 56,
+      "data": "26/12/2022",
+      "status": "Respondido",
+      "setor": "Vendas",
+      "tipo": "Elogio",
+      "mensagem": "A equipe de vendas foi incrível, me ajudou a encontrar exatamente o que eu precisava!",
+      "resposta": "Agradecemos o feedback, nosso time está sempre à disposição!",
+      "arquivo": null
+    },
+    {
+      "id": 57,
+      "data": "08/03/2023",
+      "status": "Pendente",
+      "setor": "Vendas",
+      "tipo": "Sugestão",
+      "mensagem": "Sugiro que o site tenha mais informações sobre os materiais dos produtos.",
+      "resposta": "",
+      "arquivo": null
+    },
+    {
+      "id": 57,
+      "data": "14/05/2022",
+      "status": "Respondido",
+      "setor": "Pós-venda",
+      "tipo": "Elogio",
+      "mensagem": "A equipe de pós-venda foi muito atenciosa e resolveu meu problema rapidamente!",
+      "resposta": "Ficamos felizes em saber, nosso time está sempre pronto para ajudar!",
+      "arquivo": null
+    },
+    {
+      "id": 58,
+      "data": "22/09/2022",
+      "status": "Pendente",
+      "setor": "Pós-venda",
+      "tipo": "Sugestão",
+      "mensagem": "Seria interessante ter um acompanhamento mais detalhado após a compra.",
+      "resposta": "",
+      "arquivo": null
+    },
+    {
+      "id": 59,
+      "data": "10/12/2022",
+      "status": "Respondido",
+      "setor": "Pós-venda",
+      "tipo": "Crítica",
+      "mensagem": "Demoraram muito para resolver minha solicitação de garantia.",
+      "resposta": "Pedimos desculpas pelo atraso. Estamos melhorando nossos processos.",
+      "arquivo": null
+    },
+    {
+      "id": 60,
+      "data": "05/03/2023",
+      "status": "Respondido",
+      "setor": "Pós-venda",
+      "tipo": "Elogio",
+      "mensagem": "O atendimento pós-venda foi excelente, resolveram meu problema de forma rápida!",
+      "resposta": "Agradecemos o feedback, nosso time está sempre à disposição!",
+      "arquivo": null
+    },
+    {
+      "id": 61,
+      "data": "18/07/2022",
+      "status": "Pendente",
+      "setor": "Pós-venda",
+      "tipo": "Sugestão",
+      "mensagem": "Sugiro que o pós-venda entre em contato para confirmar a satisfação do cliente.",
+      "resposta": "",
+      "arquivo": null
+    },
+    {
+      "id": 62,
+      "data": "30/01/2023",
+      "status": "Respondido",
+      "setor": "Pós-venda",
+      "tipo": "Crítica",
+      "mensagem": "O atendente não soube explicar os procedimentos de troca.",
+      "resposta": "Lamentamos o ocorrido. Vamos reforçar o treinamento da equipe.",
+      "arquivo": null
+    },
+    {
+      "id": 63,
+      "data": "12/11/2022",
+      "status": "Respondido",
+      "setor": "Pós-venda",
+      "tipo": "Elogio",
+      "mensagem": "A equipe foi muito prestativa e resolveu meu problema em poucos dias!",
+      "resposta": "Ficamos felizes em saber, nosso time se esforça para oferecer o melhor!",
+      "arquivo": null
+    },
+    {
+      "id": 64,
+      "data": "08/04/2022",
+      "status": "Pendente",
+      "setor": "Pós-venda",
+      "tipo": "Sugestão",
+      "mensagem": "Poderia haver mais informações sobre o prazo de validade da garantia.",
+      "resposta": "",
+      "arquivo": null
+    },
+    {
+      "id": 65,
+      "data": "25/06/2022",
+      "status": "Respondido",
+      "setor": "Pós-venda",
+      "tipo": "Crítica",
+      "mensagem": "O atendente não tinha conhecimento sobre o processo de devolução.",
+      "resposta": "Lamentamos pela falha. Vamos reforçar o treinamento sobre os procedimentos.",
+      "arquivo": null
+    },
+    {
+      "id": 66,
+      "data": "14/08/2022",
+      "status": "Respondido",
+      "setor": "Pós-venda",
+      "tipo": "Elogio",
+      "mensagem": "A atendente foi incrível, muito simpática e resolveu tudo rapidamente!",
+      "resposta": "Ficamos felizes em saber, ela é uma profissional exemplar!",
+      "arquivo": null
+    },
+    {
+      "id": 67,
+      "data": "03/09/2022",
+      "status": "Pendente",
+      "setor": "Pós-venda",
+      "tipo": "Sugestão",
+      "mensagem": "Seria útil ter um canal exclusivo para dúvidas pós-venda.",
+      "resposta": "",
+      "arquivo": null
+    },
+    {
+      "id": 68,
+      "data": "19/10/2022",
+      "status": "Respondido",
+      "setor": "Pós-venda",
+      "tipo": "Crítica",
+      "mensagem": "O atendente não soube explicar as condições de garantia.",
+      "resposta": "Pedimos desculpas pelo ocorrido. Vamos treinar melhor a equipe.",
+      "arquivo": null
+    },
+    {
+      "id": 69,
+      "data": "27/02/2023",
+      "status": "Respondido",
+      "setor": "Pós-venda",
+      "tipo": "Elogio",
+      "mensagem": "O atendimento foi excelente, o atendente foi muito prestativo!",
+      "resposta": "Agradecemos o feedback, nosso time está sempre à disposição!",
+      "arquivo": null
+    },
+    {
+      "id": 70,
+      "data": "09/07/2022",
+      "status": "Pendente",
+      "setor": "Pós-venda",
+      "tipo": "Sugestão",
+      "mensagem": "Sugiro que o pós-venda envie um resumo por e-mail após o atendimento.",
+      "resposta": "",
+      "arquivo": null
+    },
+    {
+      "id": 71,
+      "data": "21/03/2023",
+      "status": "Respondido",
+      "setor": "Pós-venda",
+      "tipo": "Crítica",
+      "mensagem": "O atendente não soube resolver minha dúvida sobre o prazo de troca.",
+      "resposta": "Lamentamos o ocorrido. Vamos reforçar o treinamento sobre os prazos.",
+      "arquivo": null
+    },
+    {
+      "id": 72,
+      "data": "11/05/2022",
+      "status": "Respondido",
+      "setor": "Pós-venda",
+      "tipo": "Elogio",
+      "mensagem": "A equipe foi muito ágil e resolveu meu problema em minutos!",
+      "resposta": "Ficamos felizes em ajudar, nossa equipe está sempre pronta!",
+      "arquivo": null
+    },
+    {
+      "id": 73,
+      "data": "29/09/2022",
+      "status": "Pendente",
+      "setor": "Pós-venda",
+      "tipo": "Sugestão",
+      "mensagem": "Seria bom ter um sistema de acompanhamento do status da garantia.",
+      "resposta": "",
+      "arquivo": null
+    },
+    {
+      "id": 74,
+      "data": "06/12/2022",
+      "status": "Respondido",
+      "setor": "Pós-venda",
+      "tipo": "Crítica",
+      "mensagem": "O atendente não foi claro nas informações fornecidas sobre a devolução.",
+      "resposta": "Pedimos desculpas pela falha. Vamos melhorar a comunicação.",
+      "arquivo": null
+    },
+    {
+      "id": 75,
+      "data": "14/05/2022",
+      "status": "Respondido",
+      "setor": "Produtos",
+      "tipo": "Elogio",
+      "mensagem": "Adorei a qualidade do produto que comprei! Superou minhas expectativas em todos os aspectos.",
+      "resposta": "Ficamos muito felizes em saber que o produto atendeu às suas expectativas. Agradecemos pelo feedback!",
+      "arquivo": null
+    },
+    {
+      "id": 76,
+      "data": "22/09/2022",
+      "status": "Pendente",
+      "setor": "Produtos",
+      "tipo": "Sugestão",
+      "mensagem": "Seria interessante ter mais opções de cores para os produtos, principalmente em itens esportivos.",
+      "resposta": "",
+      "arquivo": null
+    },
+    {
+      "id": 77,
+      "data": "10/12/2022",
+      "status": "Respondido",
+      "setor": "Produtos",
+      "tipo": "Crítica",
+      "mensagem": "O produto que comprei veio com um defeito na costura. Fiquei bastante insatisfeito com a qualidade.",
+      "resposta": "Lamentamos pelo ocorrido. Por favor, entre em contato conosco para que possamos resolver essa questão o mais rápido possível.",
+      "arquivo": null
+    },
+    {
+      "id": 78,
+      "data": "05/03/2023",
+      "status": "Respondido",
+      "setor": "Produtos",
+      "tipo": "Elogio",
+      "mensagem": "O design do produto é incrível! Além disso, o material é muito resistente e durável. Recomendo!",
+      "resposta": "Agradecemos pelo elogio e por recomendar nossos produtos. Estamos sempre buscando oferecer o melhor!",
+      "arquivo": null
+    },
+    {
+      "id": 79,
+      "data": "18/07/2022",
+      "status": "Pendente",
+      "setor": "Produtos",
+      "tipo": "Sugestão",
+      "mensagem": "Sugiro que vocês desenvolvam uma linha de produtos mais sustentáveis, com materiais reciclados.",
+      "resposta": "",
+      "arquivo": null
+    },
+    {
+      "id": 80,
+      "data": "30/01/2023",
+      "status": "Respondido",
+      "setor": "Produtos",
+      "tipo": "Crítica",
+      "mensagem": "O produto que comprei não correspondeu à descrição do site. Fiquei bastante decepcionado.",
+      "resposta": "Pedimos desculpas pela falha. Vamos revisar a descrição do produto e tomar as medidas necessárias para evitar que isso aconteça novamente.",
+      "arquivo": null
+    },
+    {
+      "id": 81,
+      "data": "12/11/2022",
+      "status": "Respondido",
+      "setor": "Produtos",
+      "tipo": "Elogio",
+      "mensagem": "A qualidade do material é excelente! O produto é muito confortável e atendeu perfeitamente às minhas necessidades.",
+      "resposta": "Ficamos felizes em saber que o produto atendeu às suas expectativas. Agradecemos pelo feedback positivo!",
+      "arquivo": null
+    },
+    {
+      "id": 82,
+      "data": "08/04/2022",
+      "status": "Pendente",
+      "setor": "Produtos",
+      "tipo": "Sugestão",
+      "mensagem": "Seria bom ter mais informações técnicas sobre os produtos, como composição do material e instruções de cuidado.",
+      "resposta": "",
+      "arquivo": null
+    },
+    {
+      "id": 83,
+      "data": "25/06/2022",
+      "status": "Respondido",
+      "setor": "Produtos",
+      "tipo": "Crítica",
+      "mensagem": "O produto que comprei começou a desbotar após a primeira lavagem. A qualidade não foi o que eu esperava.",
+      "resposta": "Lamentamos pelo ocorrido. Por favor, entre em contato conosco para que possamos resolver essa questão o mais rápido possível.",
+      "arquivo": null
+    },
+    {
+      "id": 84,
+      "data": "14/08/2022",
+      "status": "Respondido",
+      "setor": "Produtos",
+      "tipo": "Elogio",
+      "mensagem": "O produto é muito bem acabado e o design é moderno. Superou minhas expectativas em todos os aspectos!",
+      "resposta": "Agradecemos pelo elogio e por compartilhar sua experiência. Ficamos felizes em saber que o produto atendeu às suas expectativas!",
+      "arquivo": null
+    },
+    {
+      "id": 85,
+      "data": "03/09/2022",
+      "status": "Pendente",
+      "setor": "Produtos",
+      "tipo": "Sugestão",
+      "mensagem": "Sugiro que vocês criem uma linha de produtos mais acessíveis, com preços mais baixos para quem está começando a praticar esportes.",
+      "resposta": "",
+      "arquivo": null
+    },
+    {
+      "id": 86,
+      "data": "19/10/2022",
+      "status": "Respondido",
+      "setor": "Produtos",
+      "tipo": "Crítica",
+      "mensagem": "O produto que comprei veio com um tamanho diferente do que estava descrito no site. Fiquei bastante frustrado.",
+      "resposta": "Pedimos desculpas pelo ocorrido. Vamos revisar as informações do produto e tomar as medidas necessárias para evitar que isso aconteça novamente.",
+      "arquivo": null
+    },
+    {
+      "id": 87,
+      "data": "27/02/2023",
+      "status": "Respondido",
+      "setor": "Produtos",
+      "tipo": "Elogio",
+      "mensagem": "A qualidade do produto é excelente! O material é resistente e o design é muito bonito. Recomendo a todos!",
+      "resposta": "Ficamos felizes em saber que o produto atendeu às suas expectativas. Agradecemos por recomendar nossos produtos!",
+      "arquivo": null
+    },
+    {
+      "id": 88,
+      "data": "09/07/2022",
+      "status": "Pendente",
+      "setor": "Produtos",
+      "tipo": "Sugestão",
+      "mensagem": "Seria interessante ter mais opções de tamanhos para os produtos, principalmente para pessoas com biotipos diferentes.",
+      "resposta": "",
+      "arquivo": null
+    },
+    {
+      "id": 89,
+      "data": "21/03/2023",
+      "status": "Respondido",
+      "setor": "Produtos",
+      "tipo": "Crítica",
+      "mensagem": "O produto que comprei não é tão confortável quanto eu esperava. Acho que o material poderia ser mais macio.",
+      "resposta": "Agradecemos pelo feedback. Vamos analisar o material utilizado e verificar possíveis melhorias para futuras versões do produto.",
+      "arquivo": null
+    },
+    {
+      "id": 90,
+      "data": "11/05/2022",
+      "status": "Respondido",
+      "setor": "Produtos",
+      "tipo": "Elogio",
+      "mensagem": "O produto é muito bem feito e o design é incrível! Além disso, o material é de alta qualidade. Recomendo!",
+      "resposta": "Ficamos felizes em saber que o produto atendeu às suas expectativas. Agradecemos por recomendar nossos produtos!",
+      "arquivo": null
+    },
+    {
+      "id": 91,
+      "data": "29/09/2022",
+      "status": "Pendente",
+      "setor": "Produtos",
+      "tipo": "Sugestão",
+      "mensagem": "Sugiro que vocês desenvolvam uma linha de produtos mais compactos e fáceis de transportar, ideal para viagens.",
+      "resposta": "",
+      "arquivo": null
+    },
+    {
+      "id": 92,
+      "data": "06/12/2022",
+      "status": "Respondido",
+      "setor": "Produtos",
+      "tipo": "Crítica",
+      "mensagem": "O produto que comprei veio com um defeito no fecho. Fiquei bastante insatisfeito com a qualidade.",
+      "resposta": "Lamentamos pelo ocorrido. Por favor, entre em contato conosco para que possamos resolver essa questão o mais rápido possível.",
+      "arquivo": null
+    },
+    {
+      "id": 93,
+      "data": "17/01/2023",
+      "status": "Respondido",
+      "setor": "Produtos",
+      "tipo": "Elogio",
+      "mensagem": "O produto é muito confortável e o design é moderno. Além disso, o material é de alta qualidade. Recomendo a todos!",
+      "resposta": "Agradecemos pelo elogio e por recomendar nossos produtos. Ficamos felizes em saber que o produto atendeu às suas expectativas!",
+      "arquivo": null
+    },
+    {
+      "id": 94,
+      "data": "23/08/2022",
+      "status": "Pendente",
+      "setor": "Produtos",
+      "tipo": "Sugestão",
+      "mensagem": "Seria interessante ter mais informações sobre a origem dos materiais utilizados nos produtos.",
+      "resposta": "",
+      "arquivo": null
+    },
+    {
+      "id": 95,
+      "data": "04/04/2022",
+      "status": "Respondido",
+      "setor": "Produtos",
+      "tipo": "Crítica",
+      "mensagem": "O produto que comprei não é tão durável quanto eu esperava. Acho que o material poderia ser mais resistente.",
+      "resposta": "Agradecemos pelo feedback. Vamos analisar o material utilizado e verificar possíveis melhorias para futuras versões do produto.",
+      "arquivo": null
+    },
+    {
+      "id": 96,
+      "data": "13/06/2022",
+      "status": "Respondido",
+      "setor": "Produtos",
+      "tipo": "Elogio",
+      "mensagem": "O produto é muito bem acabado e o design é moderno. Além disso, o material é de alta qualidade. Recomendo!",
+      "resposta": "Ficamos felizes em saber que o produto atendeu às suas expectativas. Agradecemos por recomendar nossos produtos!",
+      "arquivo": null
+    },
+    {
+      "id": 97,
+      "data": "20/02/2023",
+      "status": "Pendente",
+      "setor": "Produtos",
+      "tipo": "Sugestão",
+      "mensagem": "Seria interessante ter mais opções de cores para os produtos, principalmente em itens esportivos.",
+      "resposta": "",
+      "arquivo": null
+    },
+    {
+      "id": 98,
+      "data": "07/10/2022",
+      "status": "Respondido",
+      "setor": "Produtos",
+      "tipo": "Crítica",
+      "mensagem": "O produto que comprei veio com um defeito na costura. Fiquei bastante insatisfeito com a qualidade.",
+      "resposta": "Lamentamos pelo ocorrido. Por favor, entre em contato conosco para que possamos resolver essa questão o mais rápido possível.",
+      "arquivo": null
+    },
+    {
+      "id": 99,
+      "data": "01/03/2023",
+      "status": "Respondido",
+      "setor": "Produtos",
+      "tipo": "Elogio",
+      "mensagem": "O produto é muito confortável e o design é moderno. Além disso, o material é de alta qualidade. Recomendo a todos!",
+      "resposta": "Agradecemos pelo elogio e por recomendar nossos produtos. Ficamos felizes em saber que o produto atendeu às suas expectativas!",
+      "arquivo": null
+    },
+    {
+      "id": 100,
+      "data": "12/04/2022",
+      "status": "Pendente",
+      "setor": "Produtos",
+      "tipo": "Sugestão",
+      "mensagem": "Seria interessante ter mais informações técnicas sobre os produtos, como composição do material e instruções de cuidado.",
+      "resposta": "",
+      "arquivo": null
+    },
+    {
+      "id": 101,
+      "data": "28/07/2022",
+      "status": "Respondido",
+      "setor": "Produtos",
+      "tipo": "Crítica",
+      "mensagem": "O produto que comprei não correspondeu à descrição do site. Fiquei bastante decepcionado.",
+      "resposta": "Pedimos desculpas pela falha. Vamos revisar a descrição do produto e tomar as medidas necessárias para evitar que isso aconteça novamente.",
+      "arquivo": null
+    }
+  ]
+}

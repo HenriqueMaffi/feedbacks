@@ -1,4 +1,4 @@
-import { Feedbacks } from 'assets/data.json'
+import { Feedbacks } from 'assets/feedbacks.json'
 import type { Feedback } from '~/types'
 
 export const useFeedbacks = () => {
