@@ -170,6 +170,4 @@ function novaData(){
 .base-input-feedback{
   @apply font-normal text-base rounded py-2 px-4 w-full border shadow-sm bg-gray-50 outline-none focus:border-fb-500 transition-colors duration-200
 }
-
-
 </style>

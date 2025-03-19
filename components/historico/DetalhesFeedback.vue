@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-white h-[550px] lg:h-[70%] w-full max-w-[450px] p-4 rounded-t-xl lg:rounded-b-xl absolute bottom-0 lg:top-1/2 lg:right-2 lg:-translate-y-1/2 z-30">
+  <div class="bg-white h-[550px] lg:h-[70%] w-full max-w-[450px] p-4 rounded-t-xl lg:rounded-b-xl fixed bottom-0 lg:top-1/2 lg:right-2 lg:-translate-y-1/2 z-30">
 
     <div class="grid grid-cols-3 items-center mb-10">
       <span  
@@ -100,6 +100,14 @@ const props = defineProps<{
 
 const respostaInputEtapa = ref('')
 const alertaRespostaFeedback = ref('')
+
+onMounted(() => [
+  document.documentElement.style.overflow = 'hidden'
+])
+
+onBeforeUnmount(() => {
+  document.documentElement.style.overflow = ''
+})
 
 const iconeTipo = computed(() => {
   switch (props.feedback.tipo) {

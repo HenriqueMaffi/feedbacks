@@ -48,27 +48,7 @@ defineProps({
   listaFeedbacks: Array as PropType<Feedback[]>
 })
 
-const isMobile = ref(false)
-
+const isMobile = computed(() => window.innerWidth < 1024)
 const feedbackSelecionado = ref<Feedback | null>(null)
 
-onMounted(() => {
-  window.addEventListener("resize", () => {
-    if (window.innerWidth < 1024) {
-      isMobile.value = true
-    } else {
-      isMobile.value = false
-    }
-  });
-})
-
-onBeforeUnmount(() => {
-  window.removeEventListener("resize", () => {
-    if (window.innerWidth < 1024) {
-      isMobile.value = true
-    } else {
-      isMobile.value = false
-    }
-  });
-})
 </script>
