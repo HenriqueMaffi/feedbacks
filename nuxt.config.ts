@@ -5,10 +5,9 @@ export default defineNuxtConfig({
   modules: ['@nuxtjs/tailwindcss', '@nuxt/icon', '@nuxtjs/google-fonts', '@pinia/nuxt'],
   googleFonts: {
     families: {
-      Roboto: [100, 300, 400, 700],
-      Inter: [400, 700],
-      Lato: [100, 300, 400, 700],
-      Raleway: [100, 400]
+      Roboto: [300, 500, 700],
+      Lato: [700],
+      Raleway: [300, 400]
     }
   },
   icon: {

@@ -10,7 +10,6 @@
 }
 
 body {
-	/* background-image: linear-gradient( 90deg,  rgb(8,81,98) 14%, rgb(198,231,249) 135% ); */
 	@apply bg-gradient-to-r from-[#085162_14%] to-[#C6E7F9_230%] lg:to-[#C6E7F9_135%] overflow-x-hidden;
 }
 
