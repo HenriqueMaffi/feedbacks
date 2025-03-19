@@ -275,9 +275,9 @@
       "data": "10/12/2022",
       "status": "Respondido",
       "setor": "Vendas",
-      "tipo": "Crítica",
-      "mensagem": "O vendedor não soube explicar as diferenças entre os produtos.",
-      "resposta": "Pedimos desculpas pelo ocorrido. Vamos reforçar o treinamento da equipe.",
+      "tipo": "Elogio",
+      "mensagem": "O vendedor soube explicar as diferenças entre os produtos.",
+      "resposta": "",
       "arquivo": null
     },
     {
@@ -295,8 +295,8 @@
       "data": "18/07/2022",
       "status": "Pendente",
       "setor": "Vendas",
-      "tipo": "Sugestão",
-      "mensagem": "Sugiro que o site tenha mais informações sobre os materiais dos produtos.",
+      "tipo": "Elogio",
+      "mensagem": "O site tem todas as informações que preciso sobre os produtos!",
       "resposta": "",
       "arquivo": null
     },
@@ -325,8 +325,8 @@
       "data": "08/04/2022",
       "status": "Pendente",
       "setor": "Vendas",
-      "tipo": "Sugestão",
-      "mensagem": "Poderia haver mais opções de parcelamento no site.",
+      "tipo": "Elogio",
+      "mensagem": "As opções de parcelamento do site são ótimas! ùde escolher justamente o que euq euria e me ajudou muito! Vou recomendar para os meus amigos!",
       "resposta": "",
       "arquivo": null
     },
@@ -335,7 +335,7 @@
       "data": "25/06/2022",
       "status": "Respondido",
       "setor": "Vendas",
-      "tipo": "Crítica",
+      "tipo": "Elogio",
       "mensagem": "O vendedor não tinha conhecimento sobre o produto que eu queria.",
       "resposta": "Lamentamos pela falha. Vamos reforçar o treinamento sobre os produtos.",
       "arquivo": null
@@ -355,8 +355,8 @@
       "data": "03/09/2022",
       "status": "Pendente",
       "setor": "Vendas",
-      "tipo": "Sugestão",
-      "mensagem": "Seria útil ter um chat online para tirar dúvidas sobre os produtos.",
+      "tipo": "Elogio",
+      "mensagem": "O chat online para tirar dúvidas sobre os produtos foi uma mão na roda! Resolvi todas as minhas questões rapidamente e o atendente foi super gentil e soube responder tudo com precisão!",
       "resposta": "",
       "arquivo": null
     },
@@ -445,8 +445,8 @@
       "data": "23/08/2022",
       "status": "Pendente",
       "setor": "Vendas",
-      "tipo": "Sugestão",
-      "mensagem": "Sugiro que o site tenha um filtro de busca mais eficiente.",
+      "tipo": "Crítica",
+      "mensagem": "O site precisa de um filtro de busca mais eficiente. Não consegui encontrar o que procurava.",
       "resposta": "",
       "arquivo": null
     },
@@ -1005,8 +1005,8 @@
       "data": "12/04/2022",
       "status": "Pendente",
       "setor": "Produtos",
-      "tipo": "Sugestão",
-      "mensagem": "Seria interessante ter mais informações técnicas sobre os produtos, como composição do material e instruções de cuidado.",
+      "tipo": "Crítica",
+      "mensagem": "Seria interessante ter mais informações técnicas sobre os produtos, como composição do material e instruções de cuidado. Acabei por não encontrar o que procurava.",
       "resposta": "",
       "arquivo": null
     },

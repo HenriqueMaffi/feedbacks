@@ -32,44 +32,49 @@ export const useFeedbackStoreStore = defineStore('feedback-store', () => {
   });
 
 
-  const setorMaisElogiado = computed(() => {
-    const feedbacksElogiados = feedbackList.value.filter((fb) => fb.tipo === "Elogio");
+  const verificaSetorMaisComumPorTipo = (tipo: string) => {
+    // Filtra os feedbacks pelo tipo
+    const feedbacksFiltrados = feedbackList.value.filter((fb) => fb.tipo === tipo);
 
-    if (feedbacksElogiados.length === 0) {
-      return "Nenhum setor aprovado ainda";
-    }
-  
     // Cria um objeto para contar as aprovações por setor
-    const totalElogiosPorSetor: { [key: string]: number } = {};
-  
-    feedbacksElogiados.forEach((fb) => {
-      if (totalElogiosPorSetor[fb.setor]) {
-        totalElogiosPorSetor[fb.setor] += 1;
+    const contagemSetor: { [key: string]: number } = {};
+
+    // Conta a quantidade de feedbacks por setor
+    feedbacksFiltrados.forEach((fb) => {
+      if (contagemSetor[fb.setor]) {
+        contagemSetor[fb.setor] += 1;
       } else {
-        totalElogiosPorSetor[fb.setor] = 1;
+        contagemSetor[fb.setor] = 1;
       }
     });
-  
-    // Encontra o setor com o maior número de aprovações
-    let maisElogiado = "";
+
+    let setorMaisComum = "";
     let contagemMaxima = 0;
-  
-    for (const [setor, contagem] of Object.entries(totalElogiosPorSetor)) {
+
+    // Encontra o setor mais comum
+    for (const [setor, contagem] of Object.entries(contagemSetor)) {
       if (contagem > contagemMaxima) {
-        maisElogiado = setor;
+        setorMaisComum = setor;
         contagemMaxima = contagem;
       }
     }
-  
-    return maisElogiado;
-  });
-  
+
+    return setorMaisComum;
+  };
+
+  const setorMaisElogiado = computed(() => verificaSetorMaisComumPorTipo("Elogio"));
+
+  const setorMaisCriticado = computed(() => verificaSetorMaisComumPorTipo("Crítica"));
+
+  const setorMaisSugerido = computed(() => verificaSetorMaisComumPorTipo("Sugestão"));
 
   return {
     totalFeedbacks,
     feedbacksPorTipo,
     feedbacksPorSetor,
     feedbacksPorStatus,
-    setorMaisElogiado
+    setorMaisElogiado,
+    setorMaisCriticado,
+    setorMaisSugerido,
   }
 })
