@@ -19,7 +19,7 @@
         :key="option.value"
         @click="selectOption(option)"
         class="p-2 cursor-pointer hover:bg-fb-100 hover:text-black"        
-        :class="{ 'bg-fb-500 text-gray-100': option.value === modelValue }"
+        :class="{ 'bg-fb-500 text-gray-100': option.value === model }"
       >
         {{ option.label }}
       </li>
@@ -34,17 +34,16 @@ interface DropdownOption {
 }
 
 const props = defineProps<{
-  modelValue: string;
   options: DropdownOption[];
   placeholder?: string;
 }>();
 
-const emit = defineEmits(['update:modelValue']);
+const model = defineModel()
 
 const dropdownAberto = ref(false);
 
 const labelSelecionada = computed(() => {
-  const optionSelecionada = props.options.find((option) => option.value === props.modelValue);
+  const optionSelecionada = props.options.find((option) => option.value === model.value);
   return optionSelecionada ? optionSelecionada.label : '';
 });
 
@@ -53,7 +52,7 @@ const toggleDropdown = () => {
 };
 
 const selectOption = (option: DropdownOption) => {
-  emit('update:modelValue', option.value);
+  model.value =  option.value;
   dropdownAberto.value = false;
 };
 </script>

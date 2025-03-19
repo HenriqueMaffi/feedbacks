@@ -31,12 +31,14 @@
 <script lang="ts" setup>
 const listaFeedback = useFeedbacks()
 
-const filtros = reactive({
+const filtros = ref({
   status: "",
   setor: "",
   tipo: "",
   data: "Recentes", 
 });
+
+
 
 // Converte a data para YYYY-MM-DD
 function formataDataParaFiltro(data: string) {
@@ -47,25 +49,25 @@ function formataDataParaFiltro(data: string) {
 const listaFeedbackFiltrada = computed(() => {
   let resultado = listaFeedback.value;
 
-  if (filtros.status) {
-    resultado = resultado.filter((feedback) => feedback.status === filtros.status);
+  if (filtros.value.status) {
+    resultado = resultado.filter((feedback) => feedback.status === filtros.value.status);
   }
 
-  if (filtros.setor) {
-    resultado = resultado.filter((feedback) => feedback.setor === filtros.setor);
+  if (filtros.value.setor) {
+    resultado = resultado.filter((feedback) => feedback.setor === filtros.value.setor);
   }
 
-  if (filtros.tipo) {
-    resultado = resultado.filter((feedback) => feedback.tipo === filtros.tipo);
+  if (filtros.value.tipo) {
+    resultado = resultado.filter((feedback) => feedback.tipo === filtros.value.tipo);
   }
 
-  if (filtros.data === "Recentes") {
+  if (filtros.value.data === "Recentes") {
     resultado = resultado.sort((a, b) => {
       const dateA = formataDataParaFiltro(a.data);
       const dateB = formataDataParaFiltro(b.data);
       return new Date(dateB).getTime() - new Date(dateA).getTime();
     });
-  } else if (filtros.data === "Antigos") {
+  } else if (filtros.value.data === "Antigos") {
     resultado = resultado.sort((a, b) => {
       const dateA = formataDataParaFiltro(a.data);
       const dateB = formataDataParaFiltro(b.data);

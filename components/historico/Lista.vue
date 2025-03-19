@@ -1,8 +1,8 @@
 <template>
   <main class="flex flex-col">
     <div 
-      v-for="feedback in listaFeedbacks" 
-      :key="feedback.id"
+      v-for="feedback, index in listaFeedbacks" 
+      :key="index"
       @click="feedbackSelecionado = feedback"
       class="grid grid-cols-4 py-2 px-1 sm:px-4 items-center border-t border-zinc-300 max-[380px]:text-xs text-sm sm:text-base transition-colors duration-200 hover:bg-fb-100 cursor-pointer"
       :class="{ 'bg-fb-100': feedbackSelecionado === feedback }"
