@@ -24,6 +24,7 @@ Roboto foi utilizada para o site em geral,é uma fonte simples e neutra com boa 
 
 #### Cores
 [Paleta de cores](https://coolors.co/ffffff-e5e7eb-c6e7f9-56a3cc-3297b0-0c6d85-085162)
+
 A paleta de cores utilizada foi branco, cinza claro e tons que misturam azul e verde, de maior parte azuis.
 São tons azulados até tons esverdeados, de cores mais fortes até mais escuras.
 Cores verdes e azuis transmitem mais confiança e tranqulidade, uma sensação de calmaria e podem ser usadas em diversas ocasiões. No presente caso, pode ser uma indicação de segurança ao usuário que irá relatar seu feedback.
